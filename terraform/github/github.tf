@@ -14,18 +14,14 @@ provider "github" {
 locals {
   github_repos = {
     infrastructure = {
-      description  = "Infrastructure configuration files"
-      has_projects = false
-      has_wiki     = false
+      description = "Infrastructure configuration files"
       teams = [
         "asdf-ops",
       ]
     }
 
     ".github" = {
-      description  = "asdf-community meta repository"
-      has_projects = false
-      has_wiki     = false
+      description = "asdf-community meta repository"
       teams = [
         "asdf-ops",
       ]
@@ -34,8 +30,6 @@ locals {
     asdf-alp = {
       description  = "asdf plugin for alp"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -48,8 +42,6 @@ locals {
     asdf-alpine = {
       description  = "Alpine Linux docker images of asdf tools"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -62,8 +54,6 @@ locals {
     asdf-aria2 = {
       description  = "asdf plugin for aria2"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -76,8 +66,6 @@ locals {
     asdf-arkade = {
       description  = "asdf plugin for arkade"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -90,8 +78,6 @@ locals {
     asdf-ccache = {
       description  = "asdf plugin for ccache"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -104,8 +90,6 @@ locals {
     asdf-chezscheme = {
       description  = "asdf plugin for chez scheme"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -118,8 +102,6 @@ locals {
     asdf-clojure = {
       description  = "asdf plugin for Clojure"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -132,8 +114,6 @@ locals {
     asdf-crystal = {
       description  = "asdf plugin for Crystal"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -146,8 +126,6 @@ locals {
     asdf-cue = {
       description  = "asdf plugin for CUE"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -160,8 +138,6 @@ locals {
     asdf-deno = {
       description  = "asdf plugin for Deno"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -174,8 +150,6 @@ locals {
     asdf-direnv = {
       description  = "asdf plugin for direnv"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -188,8 +162,6 @@ locals {
     asdf-dotty = {
       description  = "asdf plugin for dotty (Scala 3)"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -202,8 +174,6 @@ locals {
     asdf-elasticsearch = {
       description  = "asdf plugin for Elasticsearch"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -216,8 +186,6 @@ locals {
     asdf-elasticsearch = {
       description  = "asdf plugin for Elasticsearch"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -230,8 +198,6 @@ locals {
     asdf-elm = {
       description  = "asdf plugin for Elm"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -244,8 +210,6 @@ locals {
     asdf-esy = {
       description  = "asdf plugin for esy"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -258,8 +222,6 @@ locals {
     asdf-fstar = {
       description  = "asdf plugin for FStar"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -272,8 +234,6 @@ locals {
     asdf-getenvoy = {
       description  = "asdf plugin for GetEnvoy"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -286,8 +246,6 @@ locals {
     asdf-gleam = {
       description  = "asdf plugin for Gleam"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -300,8 +258,6 @@ locals {
     asdf-graalvm = {
       description  = "asdf plugin for GraalVM"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -314,8 +270,6 @@ locals {
     asdf-grpcurl = {
       description  = "asdf plugin for gRPCurl"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -328,8 +282,6 @@ locals {
     asdf-haskell = {
       description  = "asdf plugin for Haskell"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -342,8 +294,6 @@ locals {
     asdf-haxe = {
       description  = "asdf plugin for Haxe"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -356,8 +306,6 @@ locals {
     asdf-idris = {
       description  = "asdf plugin for Idris"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -370,8 +318,6 @@ locals {
     asdf-idris2 = {
       description  = "asdf plugin for Idris 2"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -384,8 +330,6 @@ locals {
     asdf-kotlin = {
       description  = "asdf plugin for Kotlin"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -398,8 +342,6 @@ locals {
     asdf-lean = {
       description  = "asdf plugin for Lean"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -412,8 +354,6 @@ locals {
     asdf-lfe = {
       description  = "asdf plugin for LFE"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -426,8 +366,6 @@ locals {
     asdf-link = {
       description  = "Use system tools with asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -440,8 +378,6 @@ locals {
     asdf-meson = {
       description  = "asdf plugin for Meson"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -454,8 +390,6 @@ locals {
     asdf-mill = {
       description  = "asdf plugin for Mill"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -468,8 +402,6 @@ locals {
     asdf-mlton = {
       description  = "asdf plugin for MLton"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -482,8 +414,6 @@ locals {
     asdf-neko = {
       description  = "asdf plugin for Neko"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -496,8 +426,6 @@ locals {
     asdf-ninja = {
       description  = "asdf plugin for Ninja"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -510,8 +438,6 @@ locals {
     asdf-ocaml = {
       description  = "asdf plugin for OCaml"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -524,8 +450,6 @@ locals {
     asdf-opam = {
       description  = "asdf plugin for opam"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -538,8 +462,6 @@ locals {
     asdf-php = {
       description  = "asdf plugin for PHP"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -552,8 +474,6 @@ locals {
     asdf-please = {
       description  = "asdf plugin for Please"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -566,8 +486,6 @@ locals {
     asdf-racket = {
       description  = "asdf plugin for Racket"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -580,8 +498,6 @@ locals {
     asdf-rlwrap = {
       description  = "asdf plugin for rlwrap"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -594,8 +510,6 @@ locals {
     asdf-rust = {
       description  = "asdf plugin for Rust"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -608,8 +522,6 @@ locals {
     asdf-sml = {
       description  = "asdf plugin for Standard ML"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -622,8 +534,6 @@ locals {
     asdf-tridentctl = {
       description  = "asdf plugin for tridentctl"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -636,8 +546,6 @@ locals {
     asdf-ubuntu = {
       description  = "Ubuntu docker images for asdf tools"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -650,8 +558,6 @@ locals {
     asdf-zen = {
       description  = "asdf plugin for Zen"
       homepage_url = "https://github.com/asdf-vm/asdf"
-      has_projects = false
-      has_wiki     = false
       topics = [
         "asdf-plugin",
         "asdf",
@@ -674,6 +580,8 @@ resource "github_repository" "repositories" {
   allow_squash_merge     = false
   delete_branch_on_merge = true
   has_issues             = true
+  has_projects           = false
+  has_wiki               = false
 }
 
 resource "github_team_repository" "team_repositories" {
