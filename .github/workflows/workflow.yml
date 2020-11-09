@@ -1,0 +1,42 @@
+name: Terraform
+
+on:
+  - pull_request
+  - push
+  - workflow_dispatch
+
+jobs:
+  github:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: terraform/github
+
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use latest Terraform
+        uses: hashicorp/setup-terraform@v1
+
+      - name: Check formatting
+        run: terraform fmt -check -recursive
+
+      - name: Initialize a working directory
+        run: terraform init
+
+      - name: Validate the configuration files
+        run: terraform validate
+
+      - name: Create an execution plan
+        run: terraform plan
+
+      - name: Apply the changes
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: terraform apply -auto-approve
