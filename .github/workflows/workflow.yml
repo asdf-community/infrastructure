@@ -26,7 +26,44 @@ jobs:
         uses: hashicorp/setup-terraform@v1
 
       - name: Check formatting
-        run: terraform fmt -check -recursive
+        run: terraform fmt -check
+
+      - name: Initialize a working directory
+        run: terraform init
+
+      - name: Validate the configuration files
+        run: terraform validate
+
+      - name: Create an execution plan
+        run: terraform plan
+
+      - name: Apply the changes
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: terraform apply -auto-approve
+
+  scaleway:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: terraform/scaleway
+
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      SCW_ACCESS_KEY: ${{ secrets.SCALEWAY_ACCESS_KEY }}
+      SCW_SECRET_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use latest Terraform
+        uses: hashicorp/setup-terraform@v1
+
+      - name: Check formatting
+        run: terraform fmt -check
 
       - name: Initialize a working directory
         run: terraform init
