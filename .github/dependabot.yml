@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: terraform
+    directory: /terraform/github
+    schedule:
+      interval: daily
+
+  - package-ecosystem: terraform
+    directory: /terraform/scaleway
+    schedule:
+      interval: daily
