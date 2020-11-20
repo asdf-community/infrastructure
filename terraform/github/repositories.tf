@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    github = {
-      source  = "hashicorp/github"
-      version = "4.0.1"
-    }
-  }
-}
-
-provider "github" {
-  organization = "asdf-community"
-}
-
 locals {
   github_repos = {
     infrastructure = {
