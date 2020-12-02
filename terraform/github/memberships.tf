@@ -6,17 +6,13 @@ locals {
     ]
 
     members = [
-      "jeffryang24",
       "looztra",
       "marciogm",
       "michaelstephens",
       "missingcharacter",
-      "Naturalclar",
       "nverno",
       "nzws",
       "odarriba",
-      "sasurau4",
-      "schutm",
       "superbrothers",
     ]
   }
