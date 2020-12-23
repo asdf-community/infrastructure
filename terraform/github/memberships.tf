@@ -12,7 +12,6 @@ locals {
       "missingcharacter",
       "nverno",
       "nzws",
-      "odarriba",
       "superbrothers",
     ]
   }

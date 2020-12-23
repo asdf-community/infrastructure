@@ -1,28 +1,89 @@
 locals {
   github_teams = {
-    plugin-committers = {
-      description = "The people with push access"
+    asdf-core = {
+      description = "Core team"
       maintainers = [
         "smorimoto",
         "vic",
       ]
+    }
+
+    asdf-infrastructure = {
+      description = "Infrastructure team"
+      maintainers = [
+        "smorimoto",
+        "vic",
+      ]
+    }
+
+    asdf-arkade = {
+      description = "The people with push access to the asdf-arkade repository"
       members = [
         "looztra",
+      ]
+    }
+
+    asdf-crystal = {
+      description = "The people with push access to the asdf-crystal repository"
+      members = [
         "marciogm",
+      ]
+    }
+
+    asdf-dasel = {
+      description = "The people with push access to the asdf-dasel repository"
+      members = [
+        "ghostsquad",
+        "TomWright",
+      ]
+    }
+
+    asdf-elasticsearch = {
+      description = "The people with push access to the asdf-elasticsearch repository"
+      members = [
         "michaelstephens",
-        "missingcharacter",
-        "nverno",
-        "nzws",
-        "odarriba",
+      ]
+    }
+
+    asdf-getenvoy = {
+      description = "The people with push access to the asdf-getenvoy repository"
+      members = [
         "superbrothers",
       ]
     }
 
-    asdf-ops = {
-      description = "Infrastructure Operators"
-      maintainers = [
-        "smorimoto",
-        "vic",
+    asdf-grpcurl = {
+      description = "The people with push access to the asdf-grpcurl repository"
+      members = [
+        "superbrothers",
+      ]
+    }
+
+    asdf-kotlin = {
+      description = "The people with push access to the asdf-kotlin repository"
+      members = [
+        "missingcharacter",
+      ]
+    }
+
+    asdf-php = {
+      description = "The people with push access to the asdf-php repository"
+      members = [
+        "odarriba",
+      ]
+    }
+
+    asdf-sml = {
+      description = "The people with push access to the asdf-sml repository"
+      members = [
+        "nverno",
+      ]
+    }
+
+    asdf-tridentctl = {
+      description = "The people with push access to the asdf-tridentctl repository"
+      members = [
+        "superbrothers",
       ]
     }
   }

@@ -3,14 +3,14 @@ locals {
     infrastructure = {
       description = "Infrastructure configuration files"
       teams = [
-        "asdf-ops",
+        "asdf-infrastructure",
       ]
     }
 
     ".github" = {
       description = "asdf-community meta repository"
       teams = [
-        "asdf-ops",
+        "asdf-core",
       ]
     }
 
@@ -22,7 +22,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -34,7 +34,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -46,7 +46,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -58,7 +58,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-arkade",
+        "asdf-core",
       ]
     }
 
@@ -70,7 +71,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -82,7 +83,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -94,7 +95,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -106,7 +107,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-crystal",
       ]
     }
 
@@ -118,7 +120,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -130,7 +132,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-dasel",
       ]
     }
 
@@ -142,7 +145,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -154,7 +157,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -166,7 +169,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -178,7 +181,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-elasticsearch",
       ]
     }
 
@@ -190,7 +194,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -202,7 +206,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -214,7 +218,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -226,7 +230,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-getenvoy",
       ]
     }
 
@@ -238,7 +243,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -250,7 +255,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -262,7 +267,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-grpcurl",
       ]
     }
 
@@ -274,7 +280,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -286,7 +292,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -298,7 +304,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -310,7 +316,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -322,7 +328,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-kotlin",
       ]
     }
 
@@ -334,7 +341,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -346,7 +353,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -358,7 +365,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -370,7 +377,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -382,7 +389,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -394,7 +401,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -406,7 +413,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -418,7 +425,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -430,7 +437,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -442,7 +449,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -454,7 +461,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-php",
       ]
     }
 
@@ -466,7 +474,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -478,7 +486,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -490,7 +498,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -502,7 +510,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
 
@@ -514,7 +522,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-sml",
       ]
     }
 
@@ -526,7 +535,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
+        "asdf-tridentctl",
       ]
     }
 
@@ -538,7 +548,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "plugin-committers",
+        "asdf-core",
       ]
     }
   }
