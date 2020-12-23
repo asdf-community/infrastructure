@@ -25,6 +25,14 @@ locals {
         "vic",
       ]
     }
+
+    dasel = {
+      description = "Maintainers for asdf-dasel"
+      maintainers = [
+        "TomWright",
+        "ghostsquad"
+      ]
+    }
   }
 }
 
