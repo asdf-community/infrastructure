@@ -131,7 +131,6 @@ locals {
       ]
       teams = [
         "plugin-committers",
-        "dasel",
       ]
     }
 
