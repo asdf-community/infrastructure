@@ -7,6 +7,17 @@ locals {
       }
     ]
 
+    asdf-dasel = [
+      {
+        username   = "ghostsquad",
+        permission = "push",
+      },
+      {
+        username   = "TomWright",
+        permission = "push",
+      },
+    ]
+
     asdf-gleam = [
       {
         username   = "lpil",

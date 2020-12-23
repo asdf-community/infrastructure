@@ -122,6 +122,18 @@ locals {
       ]
     }
 
+    asdf-dasel = {
+      description  = "Dasel plugin for asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "plugin-committers",
+      ]
+    }
+
     asdf-deno = {
       description  = "Deno plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
