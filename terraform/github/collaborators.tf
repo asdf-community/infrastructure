@@ -31,7 +31,7 @@ resource "github_repository_collaborator" "repository_collaborator" {
         username   = collaborator.username,
         permission = collaborator.permission,
       }]
-    ]) : "${i.repository}_${i.username}" => i
+    ]) : format("%s.%s", i.repository, i.username) => i
   }
 
   repository = each.value.repository

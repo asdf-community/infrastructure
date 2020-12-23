@@ -27,7 +27,7 @@ resource "github_membership" "memberships" {
         username = username,
         role     = "member",
       }]
-    ]) : "${i.role}_${i.username}" => i
+    ]) : format("%s.%s", i.role, i.username) => i
   }
 
   username = each.value.username

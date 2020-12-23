@@ -113,7 +113,7 @@ resource "github_team_membership" "team_membership" {
         username  = username,
         role      = "member",
       }],
-    ]]) : "${i.team_name}_${i.username}" => i
+    ]]) : format("%s.%s", i.team_name, i.username) => i
   }
 
   team_id  = github_team.teams[each.value.team_name].id

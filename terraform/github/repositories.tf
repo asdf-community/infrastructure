@@ -574,7 +574,8 @@ resource "github_team_repository" "team_repositories" {
     [for team_name in repo.teams : {
       repo_name = repo_name, team_name = team_name
     }]
-  ]) : "${i.repo_name}_${i.team_name}" => i }
+    ]) : format("%s.%s", i.repo_name, i.team_name) => i
+  }
 
   team_id    = github_team.teams[each.value.team_name].id
   repository = github_repository.repositories[each.value.repo_name].name
