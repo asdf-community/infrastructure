@@ -14,6 +14,9 @@ locals {
         "smorimoto",
         "vic",
       ]
+      members = [
+        "nzws",
+      ]
     }
 
     asdf-arkade = {
