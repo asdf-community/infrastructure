@@ -69,6 +69,13 @@ locals {
       ]
     }
 
+    asdf-nim = {
+      description = "The people with push access to the asdf-nim repository"
+      members = [
+        "elijahr",
+      ]
+    }
+
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
       members = [

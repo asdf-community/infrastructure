@@ -417,6 +417,19 @@ locals {
       ]
     }
 
+    asdf-nim = {
+      description  = "Nim plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-nim",
+      ]
+    }
+
     asdf-ninja = {
       description  = "Ninja plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
