@@ -13,6 +13,7 @@ locals {
       "nverno",
       "nzws",
       "superbrothers",
+      "wesleimp"
     ]
   }
 }
