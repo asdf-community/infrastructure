@@ -21,21 +21,21 @@ locals {
 
     asdf-arkade = {
       description = "The people with push access to the asdf-arkade repository"
-      members = [
+      maintainers = [
         "looztra",
       ]
     }
 
     asdf-crystal = {
       description = "The people with push access to the asdf-crystal repository"
-      members = [
+      maintainers = [
         "marciogm",
       ]
     }
 
     asdf-dasel = {
       description = "The people with push access to the asdf-dasel repository"
-      members = [
+      maintainers = [
         "ghostsquad",
         "TomWright",
       ]
@@ -43,56 +43,56 @@ locals {
 
     asdf-elasticsearch = {
       description = "The people with push access to the asdf-elasticsearch repository"
-      members = [
+      maintainers = [
         "michaelstephens",
       ]
     }
 
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
-      members = [
+      maintainers = [
         "superbrothers",
       ]
     }
 
     asdf-grpcurl = {
       description = "The people with push access to the asdf-grpcurl repository"
-      members = [
+      maintainers = [
         "superbrothers",
       ]
     }
 
     asdf-kotlin = {
       description = "The people with push access to the asdf-kotlin repository"
-      members = [
+      maintainers = [
         "missingcharacter",
       ]
     }
 
     asdf-nim = {
       description = "The people with push access to the asdf-nim repository"
-      members = [
+      maintainers = [
         "elijahr",
       ]
     }
 
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
-      members = [
+      maintainers = [
         "odarriba",
       ]
     }
 
     asdf-sml = {
       description = "The people with push access to the asdf-sml repository"
-      members = [
+      maintainers = [
         "nverno",
       ]
     }
 
     asdf-tridentctl = {
       description = "The people with push access to the asdf-tridentctl repository"
-      members = [
+      maintainers = [
         "superbrothers",
       ]
     }
