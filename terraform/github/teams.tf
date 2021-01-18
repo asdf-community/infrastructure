@@ -69,6 +69,13 @@ locals {
       ]
     }
 
+    asdf-kubebuilder = {
+      description = "The people with push access to the asdf-kubebuilder repository"
+      maintainers = [
+        "ghostsquad",
+      ]
+    }
+
     asdf-nim = {
       description = "The people with push access to the asdf-nim repository"
       maintainers = [
