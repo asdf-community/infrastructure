@@ -580,6 +580,11 @@ resource "github_repository" "repositories" {
   has_issues             = true
   has_projects           = false
   has_wiki               = false
+
+  template = {
+    owner = "asdf-vm"
+    repository = "asdf-plugin-template"
+  }
 }
 
 resource "github_team_repository" "team_repositories" {
