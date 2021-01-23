@@ -13,8 +13,8 @@ jobs:
         working-directory: terraform/github
 
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
@@ -48,11 +48,12 @@ jobs:
         working-directory: terraform/scaleway
 
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      SCW_ACCESS_KEY: ${{ secrets.SCALEWAY_ACCESS_KEY }}
-      SCW_SECRET_KEY: ${{ secrets.SCALEWAY_SECRET_ACCESS_KEY }}
+      SCW_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
+      SCW_DEFAULT_ORGANIZATION_ID: ${{ secrets.SCW_DEFAULT_ORGANIZATION_ID }}
+      SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
 
     steps:
       - name: Checkout code
