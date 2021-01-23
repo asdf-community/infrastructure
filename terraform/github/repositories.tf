@@ -333,6 +333,19 @@ locals {
       ]
     }
 
+    asdf-kubebuilder = {
+      description  = "Kubebuilder plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-kubebuilder",
+      ]
+    }
+
     asdf-lean = {
       description  = "Lean plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
