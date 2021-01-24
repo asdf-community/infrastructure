@@ -83,6 +83,13 @@ locals {
       ]
     }
 
+    asdf-mage = {
+      description = "The people with push access to the asdf-mage repository"
+      maintainers = [
+        "ghostsquad",
+      ]
+    }
+
     asdf-nim = {
       description = "The people with push access to the asdf-nim repository"
       maintainers = [

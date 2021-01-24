@@ -395,6 +395,19 @@ locals {
       ]
     }
 
+    asdf-mage = {
+      description  = "Mage plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-mage",
+      ]
+    }
+
     asdf-meson = {
       description  = "Meson plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
