@@ -247,6 +247,19 @@ locals {
       ]
     }
 
+    asdf-go-task = {
+      description  = "Go-Task plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-go-task",
+      ]
+    }
+
     asdf-graalvm = {
       description  = "GraalVM plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"

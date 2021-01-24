@@ -55,6 +55,13 @@ locals {
       ]
     }
 
+    asdf-go-task = {
+      description = "The people with push access to the asdf-go-task repository"
+      maintainers = [
+        "ghostsquad",
+      ]
+    }
+
     asdf-grpcurl = {
       description = "The people with push access to the asdf-grpcurl repository"
       maintainers = [
