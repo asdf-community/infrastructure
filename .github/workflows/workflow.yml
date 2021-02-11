@@ -34,6 +34,7 @@ jobs:
         run: terraform validate
 
       - name: Create an execution plan
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: terraform plan
 
       - name: Apply the changes
@@ -72,6 +73,7 @@ jobs:
         run: terraform validate
 
       - name: Create an execution plan
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: terraform plan
 
       - name: Apply the changes
