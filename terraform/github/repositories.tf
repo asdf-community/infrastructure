@@ -38,6 +38,19 @@ locals {
       ]
     }
 
+    asdf-aocc = {
+      description  = "AMD Optimizing C/C++ Compiler plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-aocc",
+        "asdf-core",
+      ]
+    }
+
     asdf-aria2 = {
       description  = "aria2 plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"

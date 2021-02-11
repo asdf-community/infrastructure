@@ -19,6 +19,13 @@ locals {
       ]
     }
 
+    asdf-aocc = {
+      description = "The people with push access to the asdf-aocc repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
+
     asdf-arkade = {
       description = "The people with push access to the asdf-arkade repository"
       maintainers = [
