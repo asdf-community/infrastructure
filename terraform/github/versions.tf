@@ -4,7 +4,7 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "4.3.1"
+      version = "4.5.0"
     }
   }
 }
