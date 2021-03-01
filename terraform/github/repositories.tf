@@ -518,6 +518,19 @@ locals {
       ]
     }
 
+    asdf-peco = {
+      description  = "peco plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-peco",
+      ]
+    }
+
     asdf-php = {
       description  = "PHP plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"

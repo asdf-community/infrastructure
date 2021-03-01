@@ -104,6 +104,13 @@ locals {
       ]
     }
 
+    asdf-peco = {
+      description = "The people with push access to the asdf-peco repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
+
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
       maintainers = [
