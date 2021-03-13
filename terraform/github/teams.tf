@@ -131,6 +131,13 @@ locals {
         "superbrothers",
       ]
     }
+
+    asdf-zig = {
+      description = "The people with push access to the asdf-zig repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
   }
 }
 

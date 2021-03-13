@@ -629,6 +629,19 @@ locals {
         "asdf-core",
       ]
     }
+
+    asdf-zig = {
+      description  = "Zig plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-zig",
+      ]
+    }
   }
 }
 
