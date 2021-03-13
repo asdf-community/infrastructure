@@ -114,7 +114,7 @@ locals {
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
       maintainers = [
-        "odarriba",
+        "smorimoto",
       ]
     }
 
