@@ -76,6 +76,14 @@ locals {
       ]
     }
 
+    asdf-hashicorp = {
+      description = "The people with push access to the asdf-hashicorp repository"
+      maintainers = [
+        "DustinChaloupka",
+        "radditude",
+      ]
+    }
+
     asdf-kotlin = {
       description = "The people with push access to the asdf-kotlin repository"
       maintainers = [
