@@ -119,6 +119,13 @@ locals {
       ]
     }
 
+    asdf-poetry = {
+      description = "The people with push access to the asdf-poetry repository"
+      maintainers = [
+        "crflynn",
+      ]
+    }
+
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
       maintainers = [
