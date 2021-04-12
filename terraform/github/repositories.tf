@@ -556,6 +556,19 @@ locals {
       ]
     }
 
+    asdf-poetry = {
+      description  = "Poetry plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-poetry",
+      ]
+    }
+
     asdf-racket = {
       description  = "Racket plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
