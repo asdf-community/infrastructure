@@ -298,6 +298,19 @@ locals {
       ]
     }
 
+    asdf-hashicorp = {
+      description  = "HashiCorp plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-hashicorp",
+      ]
+    }
+
     asdf-haskell = {
       description  = "Haskell plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"
