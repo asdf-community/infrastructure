@@ -1,3 +1,3 @@
 provider "github" {
-  organization = "asdf-community"
+  owner = "asdf-community"
 }
