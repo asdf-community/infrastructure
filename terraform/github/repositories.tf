@@ -385,6 +385,19 @@ locals {
       ]
     }
 
+    asdf-kubectl = {
+      description  = "Kubectl plugin for the asdf version manager"
+      homepage_url = "https://github.com/asdf-vm/asdf"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-kubectl",
+      ]
+    }
+
     asdf-lean = {
       description  = "Lean plugin for the asdf version manager"
       homepage_url = "https://github.com/asdf-vm/asdf"

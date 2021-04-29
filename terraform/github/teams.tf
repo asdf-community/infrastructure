@@ -98,6 +98,13 @@ locals {
       ]
     }
 
+    asdf-kubectl = {
+      description = "The people with push access to the asdf-kubectl repository"
+      maintainers = [
+        "DustinChaloupka",
+      ]
+    }
+
     asdf-mage = {
       description = "The people with push access to the asdf-mage repository"
       maintainers = [
