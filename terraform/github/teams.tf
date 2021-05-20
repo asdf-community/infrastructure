@@ -80,6 +80,7 @@ locals {
       description = "The people with push access to the asdf-hashicorp repository"
       maintainers = [
         "DustinChaloupka",
+        "nathantypanski",
         "radditude",
       ]
     }
