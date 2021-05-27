@@ -720,7 +720,7 @@ resource "github_repository_file" "github_repository_files" {
   file                = ".github/CODEOWNERS"
   content             = format("* @asdf-community/%s", each.key)
   commit_message      = "Add .github/CODEOWNERS"
-  commit_author       = "Sora Morimoto"
-  commit_email        = "sora@morimoto.io"
+  commit_author       = "github-actions[bot]"
+  commit_email        = "github-actions@github.com"
   overwrite_on_create = true
 }
