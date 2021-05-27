@@ -733,7 +733,7 @@ resource "github_branch_default" "branch_defaults" {
   branch     = each.value.default_branch
 }
 
-resource "github_repository_file" "github_repository_files" {
+resource "github_repository_file" "repository_files" {
   for_each = local.github_repos
 
   repository          = each.key
