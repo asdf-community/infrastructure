@@ -186,6 +186,7 @@ locals {
       ]
       teams = [
         "asdf-core",
+        "asdf-direnv",
       ]
     }
 

@@ -48,6 +48,15 @@ locals {
       ]
     }
 
+    asdf-direnv = {
+      description = "The people with push access to the asdf-direnv repository"
+      maintainers = [
+        "michi-zuri",
+        "smorimoto",
+        "vic",
+      ]
+    }
+
     asdf-elasticsearch = {
       description = "The people with push access to the asdf-elasticsearch repository"
       maintainers = [
