@@ -711,3 +711,16 @@ resource "github_team_repository" "team_repositories" {
   repository = github_repository.repositories[each.value.repo_name].name
   permission = "push"
 }
+
+resource "github_repository_file" "github_repository_files" {
+  for_each = local.github_repos
+
+  repository          = each.key
+  branch              = "master"
+  file                = ".github/CODEOWNERS"
+  content             = format("* @asdf-community/%s", each.key)
+  commit_message      = "Add .github/CODEOWNERS"
+  commit_author       = "Sora Morimoto"
+  commit_email        = "sora@morimoto.io"
+  overwrite_on_create = true
+}
