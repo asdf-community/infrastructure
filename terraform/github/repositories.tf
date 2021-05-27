@@ -1,22 +1,25 @@
 locals {
   github_repos = {
     infrastructure = {
-      description = "Infrastructure configuration files"
+      description    = "Infrastructure configuration files"
+      default_branch = "master"
       teams = [
         "asdf-infrastructure",
       ]
     }
 
     ".github" = {
-      description = "asdf-community meta repository"
+      description    = "asdf-community meta repository"
+      default_branch = "master"
       teams = [
         "asdf-core",
       ]
     }
 
     asdf-alp = {
-      description  = "alp plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "alp plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -27,8 +30,9 @@ locals {
     }
 
     asdf-alpine = {
-      description  = "Alpine Linux docker images of asdf tools"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Alpine Linux docker images of asdf tools"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -39,8 +43,9 @@ locals {
     }
 
     asdf-aocc = {
-      description  = "AMD Optimizing C/C++ Compiler plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "AMD Optimizing C/C++ Compiler plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -52,8 +57,9 @@ locals {
     }
 
     asdf-aria2 = {
-      description  = "aria2 plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "aria2 plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -64,8 +70,9 @@ locals {
     }
 
     asdf-arkade = {
-      description  = "arkade plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "arkade plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -77,8 +84,9 @@ locals {
     }
 
     asdf-ccache = {
-      description  = "ccache plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "ccache plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -89,8 +97,9 @@ locals {
     }
 
     asdf-chezscheme = {
-      description  = "Chez Scheme plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Chez Scheme plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -101,8 +110,9 @@ locals {
     }
 
     asdf-clojure = {
-      description  = "Clojure plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Clojure plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -113,8 +123,9 @@ locals {
     }
 
     asdf-crystal = {
-      description  = "Crystal plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Crystal plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -126,8 +137,9 @@ locals {
     }
 
     asdf-cue = {
-      description  = "CUE plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "CUE plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -138,8 +150,9 @@ locals {
     }
 
     asdf-dasel = {
-      description  = "Dasel plugin for asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Dasel plugin for asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -151,8 +164,9 @@ locals {
     }
 
     asdf-deno = {
-      description  = "Deno plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Deno plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -163,8 +177,9 @@ locals {
     }
 
     asdf-direnv = {
-      description  = "direnv plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "direnv plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -175,8 +190,9 @@ locals {
     }
 
     asdf-dotty = {
-      description  = "dotty (Scala 3) plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "dotty (Scala 3) plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -187,8 +203,9 @@ locals {
     }
 
     asdf-elasticsearch = {
-      description  = "Elasticsearch plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Elasticsearch plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -200,8 +217,9 @@ locals {
     }
 
     asdf-elm = {
-      description  = "Elm plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Elm plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -212,8 +230,9 @@ locals {
     }
 
     asdf-esy = {
-      description  = "esy plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "esy plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -224,8 +243,9 @@ locals {
     }
 
     asdf-fstar = {
-      description  = "FStar plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "FStar plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -236,8 +256,9 @@ locals {
     }
 
     asdf-getenvoy = {
-      description  = "GetEnvoy plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "GetEnvoy plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -249,33 +270,22 @@ locals {
     }
 
     asdf-gleam = {
-      description  = "Gleam plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Gleam plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
       ]
       teams = [
         "asdf-core",
-      ]
-    }
-
-    asdf-go-task = {
-      description  = "Go-Task plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
-      topics = [
-        "asdf-plugin",
-        "asdf",
-      ]
-      teams = [
-        "asdf-core",
-        "asdf-go-task",
       ]
     }
 
     asdf-graalvm = {
-      description  = "GraalVM plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "GraalVM plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -286,8 +296,9 @@ locals {
     }
 
     asdf-grpcurl = {
-      description  = "gRPCurl plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "gRPCurl plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -299,8 +310,9 @@ locals {
     }
 
     asdf-hashicorp = {
-      description  = "HashiCorp plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "HashiCorp plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -312,8 +324,9 @@ locals {
     }
 
     asdf-haskell = {
-      description  = "Haskell plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Haskell plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -324,8 +337,9 @@ locals {
     }
 
     asdf-haxe = {
-      description  = "Haxe plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Haxe plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -336,8 +350,9 @@ locals {
     }
 
     asdf-idris = {
-      description  = "Idris plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Idris plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -348,8 +363,9 @@ locals {
     }
 
     asdf-idris2 = {
-      description  = "Idris 2 plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Idris 2 plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -360,8 +376,9 @@ locals {
     }
 
     asdf-kotlin = {
-      description  = "Kotlin plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Kotlin plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -372,22 +389,10 @@ locals {
       ]
     }
 
-    asdf-kubebuilder = {
-      description  = "Kubebuilder plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
-      topics = [
-        "asdf-plugin",
-        "asdf",
-      ]
-      teams = [
-        "asdf-core",
-        "asdf-kubebuilder",
-      ]
-    }
-
     asdf-kubectl = {
-      description  = "Kubectl plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Kubectl plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -399,8 +404,9 @@ locals {
     }
 
     asdf-lean = {
-      description  = "Lean plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Lean plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -411,8 +417,9 @@ locals {
     }
 
     asdf-lfe = {
-      description  = "LFE plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "LFE plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -423,33 +430,22 @@ locals {
     }
 
     asdf-link = {
-      description  = "Use system tools with asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Use system tools with asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
       ]
       teams = [
         "asdf-core",
-      ]
-    }
-
-    asdf-mage = {
-      description  = "Mage plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
-      topics = [
-        "asdf-plugin",
-        "asdf",
-      ]
-      teams = [
-        "asdf-core",
-        "asdf-mage",
       ]
     }
 
     asdf-meson = {
-      description  = "Meson plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Meson plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -460,8 +456,9 @@ locals {
     }
 
     asdf-mill = {
-      description  = "Mill plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Mill plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -472,8 +469,9 @@ locals {
     }
 
     asdf-mlton = {
-      description  = "MLton plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "MLton plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -484,8 +482,9 @@ locals {
     }
 
     asdf-neko = {
-      description  = "Neko plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Neko plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -496,8 +495,9 @@ locals {
     }
 
     asdf-nim = {
-      description  = "Nim plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Nim plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -509,8 +509,9 @@ locals {
     }
 
     asdf-ninja = {
-      description  = "Ninja plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Ninja plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -521,8 +522,9 @@ locals {
     }
 
     asdf-ocaml = {
-      description  = "OCaml plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "OCaml plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -533,8 +535,9 @@ locals {
     }
 
     asdf-opam = {
-      description  = "opam plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "opam plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -545,8 +548,9 @@ locals {
     }
 
     asdf-peco = {
-      description  = "peco plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "peco plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -558,8 +562,9 @@ locals {
     }
 
     asdf-php = {
-      description  = "PHP plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "PHP plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -571,8 +576,9 @@ locals {
     }
 
     asdf-please = {
-      description  = "Please plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Please plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -583,8 +589,9 @@ locals {
     }
 
     asdf-poetry = {
-      description  = "Poetry plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Poetry plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -596,8 +603,9 @@ locals {
     }
 
     asdf-racket = {
-      description  = "Racket plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Racket plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -608,8 +616,9 @@ locals {
     }
 
     asdf-rlwrap = {
-      description  = "rlwrap plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "rlwrap plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -620,8 +629,9 @@ locals {
     }
 
     asdf-rust = {
-      description  = "Rust plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Rust plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -632,8 +642,9 @@ locals {
     }
 
     asdf-sml = {
-      description  = "Standard ML plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Standard ML plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -645,8 +656,9 @@ locals {
     }
 
     asdf-tridentctl = {
-      description  = "tridentctl plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "tridentctl plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -658,8 +670,9 @@ locals {
     }
 
     asdf-ubuntu = {
-      description  = "Ubuntu docker images for asdf tools"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Ubuntu docker images for asdf tools"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -670,8 +683,9 @@ locals {
     }
 
     asdf-zig = {
-      description  = "Zig plugin for the asdf version manager"
-      homepage_url = "https://github.com/asdf-vm/asdf"
+      description    = "Zig plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
       topics = [
         "asdf-plugin",
         "asdf",
@@ -712,11 +726,18 @@ resource "github_team_repository" "team_repositories" {
   permission = "push"
 }
 
+resource "github_branch_default" "branch_defaults" {
+  for_each = local.github_repos
+
+  repository = each.key
+  branch     = each.value.default_branch
+}
+
 resource "github_repository_file" "github_repository_files" {
   for_each = local.github_repos
 
   repository          = each.key
-  branch              = "master"
+  branch              = each.value.default_branch
   file                = ".github/CODEOWNERS"
   content             = format("* @asdf-community/%s", each.key)
   commit_message      = "Add .github/CODEOWNERS"

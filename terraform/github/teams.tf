@@ -62,13 +62,6 @@ locals {
       ]
     }
 
-    asdf-go-task = {
-      description = "The people with push access to the asdf-go-task repository"
-      maintainers = [
-        "ghostsquad",
-      ]
-    }
-
     asdf-grpcurl = {
       description = "The people with push access to the asdf-grpcurl repository"
       maintainers = [
@@ -92,24 +85,10 @@ locals {
       ]
     }
 
-    asdf-kubebuilder = {
-      description = "The people with push access to the asdf-kubebuilder repository"
-      maintainers = [
-        "ghostsquad",
-      ]
-    }
-
     asdf-kubectl = {
       description = "The people with push access to the asdf-kubectl repository"
       maintainers = [
         "DustinChaloupka",
-      ]
-    }
-
-    asdf-mage = {
-      description = "The people with push access to the asdf-mage repository"
-      maintainers = [
-        "ghostsquad",
       ]
     }
 
