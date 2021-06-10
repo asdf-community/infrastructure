@@ -64,6 +64,13 @@ locals {
       ]
     }
 
+    asdf-elm = {
+      description = "The people with push access to the asdf-elm repository"
+      maintainers = [
+        "brianvanburken",
+      ]
+    }
+
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
       maintainers = [
