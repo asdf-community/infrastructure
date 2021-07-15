@@ -136,6 +136,13 @@ locals {
       ]
     }
 
+    asdf-r = {
+      description = "The people with push access to the asdf-r repository"
+      maintainers = [
+        "taiar",
+      ]
+    }
+
     asdf-sml = {
       description = "The people with push access to the asdf-sml repository"
       maintainers = [
