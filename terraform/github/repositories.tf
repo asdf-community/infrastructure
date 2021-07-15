@@ -604,6 +604,20 @@ locals {
       ]
     }
 
+    asdf-R = {
+      description    = "R plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-r",
+      ]
+    }
+
     asdf-racket = {
       description    = "Racket plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
