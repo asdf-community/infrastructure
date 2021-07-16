@@ -40,6 +40,13 @@ locals {
       ]
     }
 
+    asdf-aria2 = {
+      description = "The people with push access to the asdf-aria2 repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
+
     asdf-arkade = {
       description = "The people with push access to the asdf-arkade repository"
       maintainers = [

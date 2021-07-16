@@ -67,6 +67,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-aria2",
         "asdf-core",
       ]
     }
