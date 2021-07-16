@@ -54,8 +54,22 @@ locals {
       ]
     }
 
+    asdf-ccache = {
+      description = "The people with push access to the asdf-ccache repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
+
     asdf-chezscheme = {
       description = "The people with push access to the asdf-chezscheme repository"
+      maintainers = [
+        "vic",
+      ]
+    }
+
+    asdf-clojure = {
+      description = "The people with push access to the asdf-clojure repository"
       maintainers = [
         "vic",
       ]
@@ -65,6 +79,14 @@ locals {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [
         "marciogm",
+      ]
+    }
+
+    asdf-cue = {
+      description = "The people with push access to the asdf-cue repository"
+      maintainers = [
+        "NeoHsu",
+        "spencergilbert",
       ]
     }
 

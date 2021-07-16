@@ -95,6 +95,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-ccache",
         "asdf-core",
       ]
     }
@@ -122,6 +123,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-clojure",
         "asdf-core",
       ]
     }
@@ -150,6 +152,7 @@ locals {
       ]
       teams = [
         "asdf-core",
+        "asdf-cue",
       ]
     }
 
