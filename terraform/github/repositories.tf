@@ -180,6 +180,7 @@ locals {
       ]
       teams = [
         "asdf-core",
+        "asdf-deno",
       ]
     }
 

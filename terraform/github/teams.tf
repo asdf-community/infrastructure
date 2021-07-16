@@ -98,6 +98,13 @@ locals {
       ]
     }
 
+    asdf-deno = {
+      description = "The people with push access to the asdf-direnv repository"
+      maintainers = [
+        "smorimoto",
+      ]
+    }
+
     asdf-direnv = {
       description = "The people with push access to the asdf-direnv repository"
       maintainers = [
