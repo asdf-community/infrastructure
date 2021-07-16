@@ -25,8 +25,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-alp",
+        "asdf-core",
       ]
     }
 
@@ -39,6 +39,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-alpine",
         "asdf-core",
       ]
     }

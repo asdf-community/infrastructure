@@ -26,6 +26,13 @@ locals {
       ]
     }
 
+    asdf-alpine = {
+      description = "The people with push access to the asdf-alpine repository"
+      maintainers = [
+        "vic",
+      ]
+    }
+
     asdf-aocc = {
       description = "The people with push access to the asdf-aocc repository"
       maintainers = [
