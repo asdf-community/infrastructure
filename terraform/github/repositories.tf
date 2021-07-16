@@ -26,6 +26,7 @@ locals {
       ]
       teams = [
         "asdf-core",
+        "asdf-alp",
       ]
     }
 
