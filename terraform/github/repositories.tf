@@ -208,6 +208,7 @@ locals {
       ]
       teams = [
         "asdf-core",
+        "asdf-dotty",
       ]
     }
 

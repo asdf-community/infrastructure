@@ -99,7 +99,7 @@ locals {
     }
 
     asdf-deno = {
-      description = "The people with push access to the asdf-direnv repository"
+      description = "The people with push access to the asdf-deno repository"
       maintainers = [
         "smorimoto",
       ]
@@ -110,6 +110,13 @@ locals {
       maintainers = [
         "michi-zuri",
         "smorimoto",
+        "vic",
+      ]
+    }
+
+    asdf-dotty = {
+      description = "The people with push access to the asdf-dotty repository"
+      maintainers = [
         "vic",
       ]
     }
