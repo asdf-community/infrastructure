@@ -33,6 +33,13 @@ locals {
       ]
     }
 
+    asdf-chezscheme = {
+      description = "The people with push access to the asdf-chezscheme repository"
+      maintainers = [
+        "vic",
+      ]
+    }
+
     asdf-crystal = {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [

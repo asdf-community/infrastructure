@@ -105,6 +105,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-chezscheme",
         "asdf-core",
       ]
     }
