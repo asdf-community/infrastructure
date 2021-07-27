@@ -207,6 +207,13 @@ locals {
       ]
     }
 
+    asdf-scala = {
+      description = "The people with push access to the asdf-scala repository"
+      maintainers = [
+        "mtatheonly",
+      ]
+    }
+
     asdf-sml = {
       description = "The people with push access to the asdf-sml repository"
       maintainers = [
