@@ -666,6 +666,20 @@ locals {
       ]
     }
 
+    asdf-scala = {
+      description    = "Scala plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-scala",
+      ]
+    }
+
     asdf-sml = {
       description    = "Standard ML plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
