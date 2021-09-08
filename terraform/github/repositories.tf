@@ -778,9 +778,9 @@ resource "github_repository_file" "repository_files" {
   repository          = each.key
   branch              = each.value.default_branch
   file                = ".github/CODEOWNERS"
-  content             = format("* @asdf-community/%s", each.key)
+  content             = format("* @asdf-community/%s\n", each.key)
   commit_message      = "Add .github/CODEOWNERS"
   commit_author       = "github-actions[bot]"
-  commit_email        = "github-actions@github.com"
+  commit_email        = "github-actions[bot]@users.noreply.github.com"
   overwrite_on_create = true
 }
