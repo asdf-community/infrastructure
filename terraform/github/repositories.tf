@@ -128,6 +128,20 @@ locals {
       ]
     }
 
+    asdf-cmctl = {
+      description    = "cmctl plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-cmctl",
+        "asdf-core",
+      ]
+    }
+
     asdf-crystal = {
       description    = "Crystal plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"

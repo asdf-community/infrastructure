@@ -75,6 +75,13 @@ locals {
       ]
     }
 
+    asdf-cmctl = {
+      description = "The people with push access to the asdf-crystal repository"
+      maintainers = [
+        "superbrothers",
+      ]
+    }
+
     asdf-crystal = {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [
