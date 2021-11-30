@@ -228,6 +228,14 @@ locals {
       ]
     }
 
+    asdf-svu = {
+      description = "The people with push access to the asdf-svu repository"
+      maintainers = [
+        "ghostsquad",
+        "caarlos0",
+      ]
+    }
+
     asdf-tridentctl = {
       description = "The people with push access to the asdf-tridentctl repository"
       maintainers = [

@@ -708,6 +708,20 @@ locals {
       ]
     }
 
+    asdf-svu = {
+      description    = "SVU plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-svu",
+      ]
+    }
+
     asdf-tridentctl = {
       description    = "tridentctl plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
