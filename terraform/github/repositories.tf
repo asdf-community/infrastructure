@@ -768,6 +768,7 @@ locals {
 resource "github_repository" "repositories" {
   for_each = local.github_repos
 
+  auto_init              = true
   name                   = each.key
   description            = each.value.description
   homepage_url           = lookup(each.value, "homepage_url", null)
@@ -803,12 +804,10 @@ resource "github_branch_default" "branch_defaults" {
 resource "github_repository_file" "repository_files" {
   for_each = local.github_repos
 
-  repository          = each.key
-  branch              = each.value.default_branch
-  file                = ".github/CODEOWNERS"
-  content             = format("* @asdf-community/%s\n", each.key)
-  commit_message      = "Add .github/CODEOWNERS"
-  commit_author       = "github-actions[bot]"
-  commit_email        = "github-actions[bot]@users.noreply.github.com"
-  overwrite_on_create = true
+  repository    = each.key
+  branch        = each.value.default_branch
+  file          = ".github/CODEOWNERS"
+  content       = format("* @asdf-community/%s\n", each.key)
+  commit_author = "github-actions[bot]"
+  commit_email  = "github-actions[bot]@users.noreply.github.com"
 }
