@@ -75,6 +75,13 @@ locals {
       ]
     }
 
+    asdf-cmake = {
+      description = "The people with push access to the asdf-cmake repository"
+      maintainers = [
+        "amrox",
+      ]
+    }
+
     asdf-cmctl = {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [
