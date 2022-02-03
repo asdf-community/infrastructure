@@ -428,6 +428,20 @@ locals {
       ]
     }
 
+    asdf-ktlint = {
+      description    = "ktlint plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-ktlint",
+      ]
+    }
+
     asdf-kubectl = {
       description    = "Kubectl plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
