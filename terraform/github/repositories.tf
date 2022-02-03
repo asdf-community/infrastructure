@@ -226,6 +226,20 @@ locals {
       ]
     }
 
+    asdf-dprint = {
+      description    = "dprint plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-dprint",
+      ]
+    }
+
     asdf-elasticsearch = {
       description    = "Elasticsearch plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
