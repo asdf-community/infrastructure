@@ -128,6 +128,13 @@ locals {
       ]
     }
 
+    asdf-dprint = {
+      description = "The people with push access to the asdf-dprint repository"
+      maintainers = [
+        "SnO2WMaN",
+      ]
+    }
+
     asdf-elasticsearch = {
       description = "The people with push access to the asdf-elasticsearch repository"
       maintainers = [
