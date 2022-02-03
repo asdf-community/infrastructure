@@ -179,6 +179,13 @@ locals {
       ]
     }
 
+    asdf-ktlint = {
+      description = "The people with push access to the asdf-ktlint repository"
+      maintainers = [
+        "esensar",
+      ]
+    }
+
     asdf-kubectl = {
       description = "The people with push access to the asdf-kubectl repository"
       maintainers = [
