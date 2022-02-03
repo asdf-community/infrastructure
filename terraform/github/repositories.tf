@@ -128,6 +128,20 @@ locals {
       ]
     }
 
+    asdf-cmake = {
+      description    = "CMake plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-cmake",
+        "asdf-core",
+      ]
+    }
+
     asdf-cmctl = {
       description    = "cmctl plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
