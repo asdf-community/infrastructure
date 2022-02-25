@@ -122,6 +122,7 @@ locals {
     asdf-direnv = {
       description = "The people with push access to the asdf-direnv repository"
       maintainers = [
+        "jfly",
         "michi-zuri",
         "smorimoto",
         "vic",
