@@ -821,6 +821,9 @@ resource "github_repository" "repositories" {
   has_issues             = true
   has_projects           = false
   has_wiki               = false
+  #tfsec:ignore:github-repositories-private
+  visibility           = "public"
+  vulnerability_alerts = true
 }
 
 resource "github_team_repository" "team_repositories" {
