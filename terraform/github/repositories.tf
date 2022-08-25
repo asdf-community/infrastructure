@@ -669,6 +669,20 @@ locals {
       ]
     }
 
+    asdf-python = {
+      description    = "Python plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-python",
+        "asdf-core",
+      ]
+    }
+
     asdf-quarkus = {
       description    = "Quarkus plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
