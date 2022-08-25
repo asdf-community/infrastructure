@@ -223,6 +223,13 @@ locals {
       ]
     }
 
+    asdf-pdm = {
+      description = "The people with push access to the asdf-pdm repository"
+      maintainers = [
+        "1oglop1",
+      ]
+    }
+
     asdf-peco = {
       description = "The people with push access to the asdf-peco repository"
       maintainers = [
