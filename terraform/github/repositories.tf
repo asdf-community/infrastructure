@@ -628,6 +628,20 @@ locals {
       ]
     }
 
+    asdf-pdm = {
+      description    = "PDM plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-pdm",
+        "asdf-core",
+      ]
+    }
+
     asdf-peco = {
       description    = "peco plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
