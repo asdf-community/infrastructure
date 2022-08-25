@@ -669,6 +669,20 @@ locals {
       ]
     }
 
+    asdf-quarkus = {
+      description    = "Quarkus plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-quarkus",
+        "asdf-core",
+      ]
+    }
+
     asdf-r = {
       description    = "R plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
