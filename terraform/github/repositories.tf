@@ -12,6 +12,7 @@ locals {
       description    = "asdf-community meta repository"
       default_branch = "master"
       teams = [
+        ".github",
         "asdf-core",
       ]
     }
