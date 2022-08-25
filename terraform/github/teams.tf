@@ -237,6 +237,13 @@ locals {
       ]
     }
 
+    asdf-python = {
+      description = "The people with push access to the asdf-python repository"
+      maintainers = [
+        "danhper",
+      ]
+    }
+
     asdf-r = {
       description = "The people with push access to the asdf-r repository"
       maintainers = [
