@@ -829,8 +829,9 @@ resource "github_repository" "repositories" {
   description            = each.value.description
   homepage_url           = lookup(each.value, "homepage_url", null)
   topics                 = lookup(each.value, "topics", null)
-  allow_rebase_merge     = false
-  allow_squash_merge     = false
+  allow_merge_commit     = true
+  allow_rebase_merge     = true
+  allow_squash_merge     = true
   delete_branch_on_merge = true
   has_issues             = true
   has_projects           = false
