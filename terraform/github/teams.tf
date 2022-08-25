@@ -188,6 +188,13 @@ locals {
       ]
     }
 
+    asdf-helmsman = {
+      description = "The people with push access to the asdf-helmsman repository"
+      maintainers = [
+        "luisdavim",
+      ]
+    }
+
     asdf-kotlin = {
       description = "The people with push access to the asdf-kotlin repository"
       maintainers = [
