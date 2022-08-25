@@ -1,13 +1,5 @@
 locals {
   github_teams = {
-    ".github" = {
-      description = "The people with push access to the .github repository"
-      maintainers = [
-        "smorimoto",
-        "vic",
-      ]
-    }
-
     asdf-core = {
       description = "Core team"
       maintainers = [

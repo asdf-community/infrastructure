@@ -1,19 +1,18 @@
 locals {
   github_repos = {
+    ".github" = {
+      description    = "asdf-community meta repository"
+      default_branch = "master"
+      teams = [
+        "asdf-core",
+      ]
+    }
+
     infrastructure = {
       description    = "Infrastructure configuration files"
       default_branch = "master"
       teams = [
         "asdf-infrastructure",
-      ]
-    }
-
-    ".github" = {
-      description    = "asdf-community meta repository"
-      default_branch = "master"
-      teams = [
-        ".github",
-        "asdf-core",
       ]
     }
 
@@ -166,8 +165,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-crystal",
+        "asdf-core",
       ]
     }
 
@@ -180,8 +179,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-cue",
+        "asdf-core",
       ]
     }
 
@@ -194,8 +193,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-dasel",
+        "asdf-core",
       ]
     }
 
@@ -208,8 +207,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-deno",
+        "asdf-core",
       ]
     }
 
@@ -222,8 +221,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-direnv",
+        "asdf-core",
       ]
     }
 
@@ -236,8 +235,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-dotty",
+        "asdf-core",
       ]
     }
 
@@ -250,8 +249,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-dprint",
+        "asdf-core",
       ]
     }
 
@@ -264,8 +263,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-elasticsearch",
+        "asdf-core",
       ]
     }
 
@@ -278,8 +277,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-elm",
+        "asdf-core",
       ]
     }
 
@@ -318,8 +317,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-getenvoy",
+        "asdf-core",
       ]
     }
 
@@ -358,8 +357,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-grpcurl",
+        "asdf-core",
       ]
     }
 
@@ -372,8 +371,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-hashicorp",
+        "asdf-core",
       ]
     }
 
@@ -438,8 +437,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-kotlin",
+        "asdf-core",
       ]
     }
 
@@ -452,8 +451,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-ktlint",
+        "asdf-core",
       ]
     }
 
@@ -466,8 +465,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-kubectl",
+        "asdf-core",
       ]
     }
 
@@ -571,8 +570,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-nim",
+        "asdf-core",
       ]
     }
 
@@ -624,8 +623,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-peco",
+        "asdf-core",
       ]
     }
 
@@ -638,8 +637,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-php",
+        "asdf-core",
       ]
     }
 
@@ -665,8 +664,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-poetry",
+        "asdf-core",
       ]
     }
 
@@ -679,8 +678,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-r",
+        "asdf-core",
       ]
     }
 
@@ -732,8 +731,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-scala",
+        "asdf-core",
       ]
     }
 
@@ -746,8 +745,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-sml",
+        "asdf-core",
       ]
     }
 
@@ -760,8 +759,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-svu",
+        "asdf-core",
       ]
     }
 
@@ -774,8 +773,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-tridentctl",
+        "asdf-core",
       ]
     }
 
@@ -801,8 +800,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-zig",
+        "asdf-core",
       ]
     }
   }
@@ -853,7 +852,7 @@ resource "github_repository_file" "repository_files" {
   repository    = each.key
   branch        = each.value.default_branch
   file          = ".github/CODEOWNERS"
-  content       = format("* @asdf-community/%s\n", each.key)
+  content       = format("* @asdf-community/%s\n", each.value.teams[0])
   commit_author = "github-actions[bot]"
   commit_email  = "github-actions[bot]@users.noreply.github.com"
 }
