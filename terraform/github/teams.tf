@@ -258,6 +258,13 @@ locals {
       ]
     }
 
+    asdf-quarkus = {
+      description = "The people with push access to the asdf-quarkus repository"
+      maintainers = [
+        "marcwrobel",
+      ]
+    }
+
     asdf-r = {
       description = "The people with push access to the asdf-r repository"
       maintainers = [
