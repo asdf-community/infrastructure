@@ -164,6 +164,13 @@ locals {
       ]
     }
 
+    asdf-go = {
+      description = "The people with push access to the asdf-go repository"
+      maintainers = [
+        "kennyp",
+      ]
+    }
+
     asdf-grpcurl = {
       description = "The people with push access to the asdf-grpcurl repository"
       maintainers = [
