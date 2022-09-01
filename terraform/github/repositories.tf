@@ -335,6 +335,20 @@ locals {
       ]
     }
 
+    asdf-go = {
+      description    = "Go plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-go",
+        "asdf-core",
+      ]
+    }
+
     asdf-graalvm = {
       description    = "GraalVM plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
