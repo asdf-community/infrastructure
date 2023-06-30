@@ -10,7 +10,7 @@ locals {
 
     infrastructure = {
       description    = "Infrastructure configuration files"
-      default_branch = "master"
+      default_branch = "main"
       teams = [
         "asdf-infrastructure",
       ]
