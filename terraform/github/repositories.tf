@@ -470,6 +470,20 @@ locals {
       ]
     }
 
+    asdf-kiota = {
+      description    = "kiota plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-kiota",
+      ]
+    }
+
     asdf-ktlint = {
       description    = "ktlint plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
