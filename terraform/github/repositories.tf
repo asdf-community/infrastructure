@@ -889,6 +889,7 @@ resource "github_repository" "repositories" {
   allow_rebase_merge     = true
   allow_squash_merge     = true
   delete_branch_on_merge = true
+  has_discussions        = true
   has_issues             = true
   has_projects           = false
   has_wiki               = false
