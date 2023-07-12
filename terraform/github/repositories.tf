@@ -335,7 +335,7 @@ locals {
       ]
     }
 
-    asdf-go = {
+    asdf-golang = {
       description    = "Go plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
       default_branch = "master"
@@ -344,7 +344,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-go",
+        "asdf-golang",
         "asdf-core",
       ]
     }

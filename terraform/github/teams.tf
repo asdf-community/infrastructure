@@ -164,8 +164,8 @@ locals {
       ]
     }
 
-    asdf-go = {
-      description = "The people with push access to the asdf-go repository"
+    asdf-golang = {
+      description = "The people with push access to the asdf-golang repository"
       maintainers = [
         "kennyp",
       ]
