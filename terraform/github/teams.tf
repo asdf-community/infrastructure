@@ -194,6 +194,13 @@ locals {
       ]
     }
 
+    asdf-kiota = {
+      description = "The people with push access to the asdf-kiota repository"
+      maintainers = [
+        "andreaTP",
+      ]
+    }
+
     asdf-kotlin = {
       description = "The people with push access to the asdf-kotlin repository"
       maintainers = [
