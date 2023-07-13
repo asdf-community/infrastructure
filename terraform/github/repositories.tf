@@ -479,8 +479,8 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-core",
         "asdf-kiota",
+        "asdf-core",
       ]
     }
 
