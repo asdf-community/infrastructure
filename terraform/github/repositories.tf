@@ -910,6 +910,10 @@ resource "github_repository" "repositories" {
   #tfsec:ignore:github-repositories-private
   visibility           = "public"
   vulnerability_alerts = true
+
+  lifecycle {
+    ignore_changes = [template]
+  }
 }
 
 resource "github_team_repository" "team_repositories" {
