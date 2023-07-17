@@ -229,6 +229,13 @@ locals {
       ]
     }
 
+    asdf-odo = {
+      description = "The people with push access to the asdf-odo repository"
+      maintainers = [
+        "rm3l",
+      ]
+    }
+
     asdf-pdm = {
       description = "The people with push access to the asdf-pdm repository"
       maintainers = [
