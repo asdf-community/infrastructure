@@ -1,0 +1,19 @@
+name: TFLint
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  tflint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tree
+        uses: actions/checkout@v3.5.3
+
+      - name: Set-up TFLint
+        uses: terraform-linters/setup-tflint@v3.0.0
+
+      - name: Run TFLint
+        run: tflint --recursive --format=compact
