@@ -15,14 +15,14 @@ jobs:
 
     steps:
       - name: Checkout tree
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
 
       - name: Run tfsec
-        uses: aquasecurity/tfsec-sarif-action@v0.1.4
+        uses: aquasecurity/tfsec-sarif-action@21ded20e8ca120cd9d3d6ab04ef746477542a608 # v0.1.4
         with:
           sarif_file: tfsec.sarif
 
       - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v2.20.4
+        uses: github/codeql-action/upload-sarif@489225d82a57396c6f426a40e66d461b16b3461d # v2.20.4
         with:
           sarif_file: tfsec.sarif

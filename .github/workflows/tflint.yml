@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout tree
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
 
       - name: Set-up TFLint
-        uses: terraform-linters/setup-tflint@v3.0.0
+        uses: terraform-linters/setup-tflint@ba6bb2989f94daf58a4cc6eac2c1ca7398a678bf # v3.0.0
 
       - name: Run TFLint
         run: tflint --recursive --format=compact
