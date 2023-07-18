@@ -643,6 +643,26 @@ locals {
       ]
     }
 
+    asdf-odo = {
+      description    = "asdf version manager plugin for odo, the developer-focused CLI for fast and iterative application development on Podman, Kubernetes and OpenShift"
+      homepage_url   = "https://odo.dev"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+        "application-development",
+        "developer-tools",
+        "kubernetes",
+        "odo",
+        "openshift",
+        "podman",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-odo",
+      ]
+    }
+
     asdf-opam = {
       description    = "opam plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
