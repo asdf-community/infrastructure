@@ -658,8 +658,8 @@ locals {
         "podman",
       ]
       teams = [
-        "asdf-core",
         "asdf-odo",
+        "asdf-core",
       ]
     }
 
