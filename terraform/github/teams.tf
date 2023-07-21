@@ -143,6 +143,13 @@ locals {
       ]
     }
 
+    asdf-duckdb = {
+      description = "The people with push access to the asdf-duckdb repository"
+      maintainers = [
+        "JesseStimpson",
+      ]
+    }
+
     asdf-elasticsearch = {
       description = "The people with push access to the asdf-elasticsearch repository"
       maintainers = [
