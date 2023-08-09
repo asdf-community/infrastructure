@@ -759,6 +759,21 @@ locals {
       ]
     }
 
+    asdf-plugin-manager = {
+      description    = "A plugin manager for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+        "security",
+      ]
+      teams = [
+        "asdf-plugin-manager",
+        "asdf-core",
+      ]
+    }
+
     asdf-python = {
       description    = "Python plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
