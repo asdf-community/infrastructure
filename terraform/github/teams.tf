@@ -271,6 +271,13 @@ locals {
       ]
     }
 
+    asdf-plugin-manager = {
+      description = "The people with push access to the asdf-plugin-manager repository"
+      maintainers = [
+        "aabouzaid",
+      ]
+    }
+
     asdf-python = {
       description = "The people with push access to the asdf-python repository"
       maintainers = [
