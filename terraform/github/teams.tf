@@ -104,6 +104,13 @@ locals {
       ]
     }
 
+    asdf-dapr-cli = {
+      description = "The people with push access to the asdf-dapr-cli repository"
+      maintainers = [
+        "mindovermiles262",
+      ]
+    }
+
     asdf-dasel = {
       description = "The people with push access to the asdf-dasel repository"
       maintainers = [
@@ -212,6 +219,13 @@ locals {
       description = "The people with push access to the asdf-kotlin repository"
       maintainers = [
         "missingcharacter",
+      ]
+    }
+
+    asdf-kp = {
+      description = "The people with push access to the asdf-kp repository"
+      maintainers = [
+        "mindovermiles262",
       ]
     }
 
