@@ -222,7 +222,7 @@ locals {
       ]
     }
 
-    asdf-kp = {
+    asdf-kpack-cli = {
       description = "The people with push access to the asdf-kp repository"
       maintainers = [
         "mindovermiles262",
