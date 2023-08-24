@@ -184,6 +184,20 @@ locals {
       ]
     }
 
+    asdf-dapr-cli = {
+      description    = "Dapr CLI plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-dapr-cli",
+        "asdf-core",
+      ]
+    }
+
     asdf-dasel = {
       description    = "Dasel plugin for asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
@@ -480,6 +494,20 @@ locals {
       ]
       teams = [
         "asdf-kotlin",
+        "asdf-core",
+      ]
+    }
+
+    asdf-kpack-cli = {
+      description    = "Kpack CLI plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-kpack-cli",
         "asdf-core",
       ]
     }
