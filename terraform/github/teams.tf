@@ -320,6 +320,13 @@ locals {
       ]
     }
 
+    asdf-scala-cli = {
+      description = "The people with push access to the asdf-scala-cli repository"
+      maintainers = [
+        "rlemaitre",
+      ]
+    }
+
     asdf-sml = {
       description = "The people with push access to the asdf-sml repository"
       maintainers = [
