@@ -327,6 +327,13 @@ locals {
       ]
     }
 
+    asdf-secrets-manager = {
+      description = "The people with push access to the asdf-secrets-manager repository"
+      maintainers = [
+        "FIAV1",
+      ]
+    }
+
     asdf-sml = {
       description = "The people with push access to the asdf-sml repository"
       maintainers = [
