@@ -911,6 +911,20 @@ locals {
       ]
     }
 
+    asdf-secrets-manager = {
+      description    = "asdf-secrets-manager for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-secrets-manager",
+        "asdf-core",
+      ]
+    }
+
     asdf-sml = {
       description    = "Standard ML plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
