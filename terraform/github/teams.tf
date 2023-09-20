@@ -327,8 +327,8 @@ locals {
       ]
     }
 
-    asdf-secrets-manager = {
-      description = "The people with push access to the asdf-secrets-manager repository"
+    asdf-bitwarden-secrets-manager = {
+      description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
       maintainers = [
         "FIAV1",
       ]
