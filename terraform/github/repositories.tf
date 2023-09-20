@@ -911,8 +911,8 @@ locals {
       ]
     }
 
-    asdf-secrets-manager = {
-      description    = "asdf-secrets-manager for the asdf version manager"
+    asdf-bitwarden-secrets-manager = {
+      description    = "asdf-bitwarden-secrets-manager for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
       default_branch = "main"
       topics = [
@@ -920,7 +920,7 @@ locals {
         "asdf",
       ]
       teams = [
-        "asdf-secrets-manager",
+        "asdf-bitwarden-secrets-manager",
         "asdf-core",
       ]
     }
