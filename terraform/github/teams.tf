@@ -208,6 +208,13 @@ locals {
       ]
     }
 
+    asdf-intlc = {
+      description = "The people with push access to the asdf-intlc repository"
+      maintainers = [
+        "osdiab",
+      ]
+    }
+
     asdf-kiota = {
       description = "The people with push access to the asdf-kiota repository"
       maintainers = [
