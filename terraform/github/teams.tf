@@ -250,6 +250,13 @@ locals {
       ]
     }
 
+    asdf-mimirtool = {
+      description = "The people with push access to the asdf-mimirtool repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-nim = {
       description = "The people with push access to the asdf-nim repository"
       maintainers = [
