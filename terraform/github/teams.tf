@@ -356,6 +356,13 @@ locals {
       ]
     }
 
+    asdf-temporal = {
+      description = "The people with push access to the asdf-temporal repository"
+      maintainers = [
+        "joshkaplinsky",
+      ]
+    }
+
     asdf-tridentctl = {
       description = "The people with push access to the asdf-tridentctl repository"
       maintainers = [
