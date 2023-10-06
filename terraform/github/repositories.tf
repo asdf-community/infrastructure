@@ -816,6 +816,20 @@ locals {
       ]
     }
 
+    asdf-promtool = {
+      description    = "promtool plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-promtool",
+        "asdf-core",
+      ]
+    }
+
     asdf-python = {
       description    = "Python plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
