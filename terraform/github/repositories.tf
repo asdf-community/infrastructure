@@ -633,6 +633,20 @@ locals {
       ]
     }
 
+    asdf-mimirtool = {
+      description    = "mimirtool plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-mimirtool",
+        "asdf-core",
+      ]
+    }
+
     asdf-mlton = {
       description    = "MLton plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
