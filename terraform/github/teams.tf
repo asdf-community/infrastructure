@@ -306,6 +306,13 @@ locals {
       ]
     }
 
+    asdf-promtool = {
+      description = "The people with push access to the asdf-promtool repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-python = {
       description = "The people with push access to the asdf-python repository"
       maintainers = [
