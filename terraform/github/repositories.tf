@@ -967,6 +967,20 @@ locals {
       ]
     }
 
+    asdf-temporal = {
+      description    = "Temporal CLI plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-temporal",
+        "asdf-core",
+      ]
+    }
+
     asdf-tridentctl = {
       description    = "tridentctl plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
