@@ -969,11 +969,13 @@ locals {
 
     asdf-temporal = {
       description    = "Temporal CLI plugin for the asdf version manager"
-      homepage_url   = "https://github.com/asdf-vm/asdf"
+      homepage_url   = "https://github.com/temporalio/cli"
       default_branch = "main"
       topics = [
         "asdf-plugin",
         "asdf",
+        "temporal",
+        "temporal-cli",
       ]
       teams = [
         "asdf-temporal",
