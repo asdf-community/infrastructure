@@ -370,6 +370,13 @@ locals {
       ]
     }
 
+    asdf-swift = {
+      description = "The people with push access to the asdf-swift repository"
+      maintainers = [
+        "hqnna",
+      ]
+    }
+
     asdf-terragrunt = {
       description = "The people with push access to the asdf-terragrunt repository"
       maintainers = [
