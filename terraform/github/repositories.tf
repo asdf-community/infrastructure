@@ -909,6 +909,7 @@ locals {
         "asdf",
       ]
       teams = [
+        "asdf-racket",
         "asdf-core",
       ]
     }
