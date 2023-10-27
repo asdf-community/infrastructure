@@ -341,6 +341,13 @@ locals {
       ]
     }
 
+    asdf-racket = {
+      description = "The people with push access to the asdf-racket repository"
+      maintainers = [
+        "nandalopes",
+      ]
+    }
+
     asdf-scala = {
       description = "The people with push access to the asdf-scala repository"
       maintainers = [
