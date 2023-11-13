@@ -374,6 +374,7 @@ locals {
       description = "The people with push access to the asdf-temporal repository"
       maintainers = [
         "joshkaplinsky",
+        "hariscodes",
       ]
     }
 
