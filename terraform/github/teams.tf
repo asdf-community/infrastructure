@@ -313,6 +313,13 @@ locals {
       ]
     }
 
+    asdf-pomerium-cli = {
+      description = "The people with push access to the asdf-pomerium-cli repository"
+      maintainers = [
+        "haggishunk",
+      ]
+    }
+
     asdf-python = {
       description = "The people with push access to the asdf-python repository"
       maintainers = [
