@@ -815,6 +815,13 @@ locals {
       ]
     }
 
+    asdf-pomerium-cli = {
+      description = "The people with push access to the asdf-pomerium-cli repository"
+      maintainers = [
+        "haggishunk",
+      ]
+    }
+
     asdf-plugin-manager = {
       description    = "A plugin manager for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
