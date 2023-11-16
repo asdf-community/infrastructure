@@ -844,6 +844,20 @@ locals {
       ]
     }
 
+    asdf-pomerium-cli = {
+      description    = "pomerium-cli plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-pomerium-cli",
+        "asdf-core",
+      ]
+    }
+
     asdf-python = {
       description    = "Python plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
