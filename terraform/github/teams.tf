@@ -171,6 +171,13 @@ locals {
       ]
     }
 
+    asdf-etcd = {
+      description = "The people with push access to the asdf-etcd repository"
+      maintainers = [
+        "particledecay",
+      ]
+    }
+
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
       maintainers = [
@@ -215,6 +222,13 @@ locals {
       ]
     }
 
+    asdf-kconf = {
+      description = "The people with push access to the asdf-kconf repository"
+      maintainers = [
+        "particledecay",
+      ]
+    }
+
     asdf-kiota = {
       description = "The people with push access to the asdf-kiota repository"
       maintainers = [
@@ -247,6 +261,13 @@ locals {
       description = "The people with push access to the asdf-kubectl repository"
       maintainers = [
         "DustinChaloupka",
+      ]
+    }
+
+    asdf-lab = {
+      description = "The people with push access to the asdf-lab repository"
+      maintainers = [
+        "particledecay",
       ]
     }
 
@@ -395,6 +416,13 @@ locals {
       description = "The people with push access to the asdf-swift repository"
       maintainers = [
         "hqnna",
+      ]
+    }
+
+    asdf-task = {
+      description = "The people with push access to the asdf-task repository"
+      maintainers = [
+        "particledecay",
       ]
     }
 

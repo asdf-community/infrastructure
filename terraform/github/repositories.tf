@@ -323,6 +323,22 @@ locals {
       ]
     }
 
+    asdf-etcd = {
+      description    = "etcd plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+        "etcd",
+        "etcdctl",
+      ]
+      teams = [
+        "asdf-etcd",
+        "asdf-core",
+      ]
+    }
+
     asdf-fstar = {
       description    = "FStar plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
@@ -498,6 +514,22 @@ locals {
       ]
     }
 
+    asdf-kconf = {
+      description    = "kconf plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+        "kconf",
+        "kubernetes",
+      ]
+      teams = [
+        "asdf-kconf",
+        "asdf-core",
+      ]
+    }
+
     asdf-kotlin = {
       description    = "Kotlin plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
@@ -564,6 +596,22 @@ locals {
       ]
       teams = [
         "asdf-kubectl",
+        "asdf-core",
+      ]
+    }
+
+    asdf-lab = {
+      description    = "lab plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf",
+        "asdf-plugin",
+        "gitlab",
+        "lab",
+      ]
+      teams = [
+        "asdf-lab",
         "asdf-core",
       ]
     }
@@ -1006,6 +1054,21 @@ locals {
       ]
       teams = [
         "asdf-svu",
+        "asdf-core",
+      ]
+    }
+
+    asdf-task = {
+      description    = "Task plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+        "task",
+      ]
+      teams = [
+        "asdf-task",
         "asdf-core",
       ]
     }
