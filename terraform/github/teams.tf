@@ -250,17 +250,17 @@ locals {
       ]
     }
 
-    asdf-moon = {
-      description = "The people with push access to the asdf-moon repository"
-      maintainers = [
-        "ethanjdiamond",
-      ]
-    }
-
     asdf-mimirtool = {
       description = "The people with push access to the asdf-mimirtool repository"
       maintainers = [
         "czchen",
+      ]
+    }
+
+    asdf-moon = {
+      description = "The people with push access to the asdf-moon repository"
+      maintainers = [
+        "ethanjdiamond",
       ]
     }
 
