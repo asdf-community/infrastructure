@@ -264,7 +264,7 @@ locals {
       ]
     }
 
-    asdf-lab = {
+    asdf-gitlab-lab = {
       description = "The people with push access to the asdf-lab repository"
       maintainers = [
         "particledecay",
@@ -405,7 +405,7 @@ locals {
       ]
     }
 
-    asdf-task = {
+    asdf-taskfile = {
       description = "The people with push access to the asdf-task repository"
       maintainers = [
         "particledecay",
