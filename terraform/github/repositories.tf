@@ -660,6 +660,20 @@ locals {
       ]
     }
 
+    asdf-moonrepo = {
+      description    = "Moon plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-moonrepo",
+        "asdf-core",
+      ]
+    }
+
     asdf-neko = {
       description    = "Neko plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
