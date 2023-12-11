@@ -1080,6 +1080,34 @@ locals {
         "asdf-core",
       ]
     }
+
+    asdf-tuist = {
+      description    = "Tuist CLI plugin for the asdf version manager"
+      homepage_url   = "https://github.com/tuist/tuist"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-tuist",
+        "asdf-core",
+      ]
+    }
+
+    asdf-tuist-cloud = {
+      description    = "Tuist Cloud CLI plugin for the asdf version manager"
+      homepage_url   = "https://github.com/tuist/tuist"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-tuist-cloud",
+        "asdf-core",
+      ]
+    }
   }
 }
 
