@@ -454,6 +454,22 @@ locals {
         "smorimoto",
       ]
     }
+
+    asdf-tuist = {
+      description = "The people with push access to the asdf-tuist repository"
+      maintainers = [
+        "fortmarek",
+        "pepicrft"
+      ]
+    }
+
+    asdf-tuist-cloud = {
+      description = "The people with push access to the asdf-tuist-cloud repository"
+      maintainers = [
+        "fortmarek",
+        "pepicrft"
+      ]
+    }
   }
 }
 
