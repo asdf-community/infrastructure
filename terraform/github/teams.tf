@@ -278,6 +278,14 @@ locals {
       ]
     }
 
+    asdf-mirrord = {
+      description = "The people with push access to the asdf-mirrord repository"
+      maintainers = [
+        "infiniteregrets",
+        "aviramha"
+      ]
+    }
+
     asdf-moonrepo = {
       description = "The people with push access to the asdf-moonrepo repository"
       maintainers = [
