@@ -376,6 +376,13 @@ locals {
       ]
     }
 
+    asdf-regal = {
+      description = "The people with push access to the asdf-regal repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-scala = {
       description = "The people with push access to the asdf-scala repository"
       maintainers = [
