@@ -458,6 +458,20 @@ locals {
       ]
     }
 
+    asdf-hishtory = {
+      description    = "hiSHtory plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-hishtory",
+        "asdf-core",
+      ]
+    }
+
     asdf-idris = {
       description    = "Idris plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
