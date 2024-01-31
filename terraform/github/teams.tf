@@ -215,6 +215,13 @@ locals {
       ]
     }
 
+    asdf-hishtory = {
+      description = "The people with push access to the asdf-hishtory repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-intlc = {
       description = "The people with push access to the asdf-intlc repository"
       maintainers = [
