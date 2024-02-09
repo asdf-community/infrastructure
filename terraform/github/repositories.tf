@@ -1136,6 +1136,20 @@ locals {
         "asdf-core",
       ]
     }
+
+    asdf-xcbeautify = {
+      description    = "xcbeautify plugin for the asdf version manager"
+      homepage_url   = "https://github.com/cpisciotta/xcbeautify"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-xcbeautify",
+        "asdf-core"
+      ]
+    }
   }
 }
 
