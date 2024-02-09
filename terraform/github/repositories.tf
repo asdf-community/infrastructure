@@ -1139,7 +1139,7 @@ locals {
 
     asdf-xcbeautify = {
       description    = "xcbeautify plugin for the asdf version manager"
-      homepage_url   = "https://github.com/cpisciotta/xcbeautify"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
       default_branch = "main"
       topics = [
         "asdf-plugin",
