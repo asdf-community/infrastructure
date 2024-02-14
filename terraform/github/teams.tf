@@ -484,6 +484,13 @@ locals {
         "pepicrft"
       ]
     }
+
+    asdf-xcbeautify = {
+      description = "The people with push access to the asdf-xcbeautify repository"
+      maintainers = [
+        "clemencov",
+      ]
+    }
   }
 }
 
