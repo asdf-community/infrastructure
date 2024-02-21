@@ -484,6 +484,13 @@ locals {
         "pepicrft"
       ]
     }
+
+    asdf-uv = {
+      description = "The people with push access to the asdf-uv repository"
+      maintainers = [
+        "b1-luettje"
+      ]
+    }
   }
 }
 
