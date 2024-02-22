@@ -178,6 +178,17 @@ locals {
       ]
     }
 
+    asdf-flutter = {
+      description = "The people with push access to the asdf-flutter repository"
+      maintainers = [
+        "ciccioska",
+        "ken-ty",
+        "oae",
+        "ugurcoskn",
+
+      ]
+    }
+
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
       maintainers = [
