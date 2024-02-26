@@ -185,7 +185,6 @@ locals {
         "ken-ty",
         "oae",
         "ugurcoskn",
-
       ]
     }
 
