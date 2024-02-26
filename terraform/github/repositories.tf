@@ -1136,6 +1136,21 @@ locals {
         "asdf-core",
       ]
     }
+
+    asdf-uv = {
+      description    = "uv plugin for the asdf version manager"
+      homepage_url   = "https://github.com/astral-sh/uv"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-uv",
+        "asdf-core"
+      ]
+    }
+
   }
 }
 
