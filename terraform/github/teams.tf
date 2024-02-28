@@ -257,6 +257,14 @@ locals {
       ]
     }
 
+    asdf-krelay = {
+      description = "The people with push access to the asdf-krelay repository"
+      maintainers = [
+        "ilpianista",
+        "vad",
+      ]
+    }
+
     asdf-ktlint = {
       description = "The people with push access to the asdf-ktlint repository"
       maintainers = [
