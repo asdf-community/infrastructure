@@ -554,6 +554,20 @@ locals {
       ]
     }
 
+    asdf-krelay = {
+      description    = "krelay plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-krelay",
+        "asdf-core",
+      ]
+    }
+
     asdf-ktlint = {
       description    = "ktlint plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
