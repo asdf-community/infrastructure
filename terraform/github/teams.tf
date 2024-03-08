@@ -436,6 +436,14 @@ locals {
       ]
     }
 
+    asdf-stratus-red-team = {
+      description = "The people with push access to the asdf-stratus-red-team repository"
+      maintainers = [
+        "christophetd",
+        "vthiery",
+      ]
+    }
+
     asdf-svu = {
       description = "The people with push access to the asdf-svu repository"
       maintainers = [
