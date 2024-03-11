@@ -466,6 +466,13 @@ locals {
       ]
     }
 
+    asdf-swifthooks = {
+      description = "The people with push access to the asdf-swifthooks repository"
+      maintainers = [
+        "lordcodes",
+      ]
+    }
+
     asdf-taskfile = {
       description = "The people with push access to the asdf-task repository"
       maintainers = [
