@@ -68,6 +68,13 @@ locals {
       ]
     }
 
+    asdf-cloak-swift = {
+      description = "The people with push access to the asdf-cloak-swift repository"
+      maintainers = [
+        "lordcodes",
+      ]
+    }
+
     asdf-clojure = {
       description = "The people with push access to the asdf-clojure repository"
       maintainers = [
