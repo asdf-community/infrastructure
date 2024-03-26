@@ -323,6 +323,20 @@ locals {
       ]
     }
 
+    asdf-flutter = {
+      description = "flutter plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-flutter",
+      ]
+    }
+
     asdf-fstar = {
       description    = "FStar plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
