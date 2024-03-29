@@ -480,6 +480,15 @@ locals {
       ]
     }
 
+    asdf-yarn = {
+      description = "The people with push access to the asdf-yarn repository"
+      maintainers = [
+        "ab-dauletkhan",
+        "canterberry",
+        "kroleg",
+      ]
+    }
+
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
       maintainers = [
