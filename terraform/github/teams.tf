@@ -479,6 +479,18 @@ locals {
         "superbrothers",
       ]
     }
+    
+    adsf-yarn = {
+      description = "The people with push access to the asdf-yarn repository"
+      maintainers = [
+        "smorimoto",
+        "vic",
+      ],
+      members = [
+        "kroleg",
+        "ab-dauletkhan",
+      ]
+    }
 
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
