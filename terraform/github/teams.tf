@@ -436,6 +436,13 @@ locals {
       ]
     }
 
+    asdf-sml = {
+      description = "The people with push access to the asdf-sqlc repository"
+      maintainers = [
+        "ramonamorim",
+      ]
+    }
+
     asdf-svu = {
       description = "The people with push access to the asdf-svu repository"
       maintainers = [
