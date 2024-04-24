@@ -508,8 +508,14 @@ locals {
       maintainers = [
         "b1-luettje"
       ]
+        }
+      asdf-vmctl = {
+        description = "The people with push access to the asdf-vmctl repository"
+        maintainers = [
+          "Davidffry",
+        ]
+      }
     }
-  }
 }
 
 resource "github_team" "teams" {
