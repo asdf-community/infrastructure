@@ -331,6 +331,20 @@ locals {
       ]
     }
 
+    asdf-pandoc = {
+      description = "The people with push access to the asdf-pandoc repository",
+      maintainers = [
+        "sys9kdr",
+      ]
+    }
+
+    asdf-pandoc-crossref = {
+      description = "The people with push access to the asdf-pandoc-crossref repository",
+      maintainers = [
+        "sys9kdr",
+      ]
+    }
+
     asdf-pdm = {
       description = "The people with push access to the asdf-pdm repository"
       maintainers = [
