@@ -323,6 +323,20 @@ locals {
       ]
     }
 
+    asdf-flutter = {
+      description    = "flutter plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-core",
+        "asdf-flutter",
+      ]
+    }
+
     asdf-fstar = {
       description    = "FStar plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
@@ -550,6 +564,20 @@ locals {
       ]
       teams = [
         "asdf-kiota",
+        "asdf-core",
+      ]
+    }
+
+    asdf-krelay = {
+      description    = "krelay plugin for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-krelay",
         "asdf-core",
       ]
     }

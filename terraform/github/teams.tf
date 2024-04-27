@@ -68,6 +68,13 @@ locals {
       ]
     }
 
+    asdf-cloak-swift = {
+      description = "The people with push access to the asdf-cloak-swift repository"
+      maintainers = [
+        "lordcodes",
+      ]
+    }
+
     asdf-clojure = {
       description = "The people with push access to the asdf-clojure repository"
       maintainers = [
@@ -324,6 +331,20 @@ locals {
       ]
     }
 
+    asdf-pandoc = {
+      description = "The people with push access to the asdf-pandoc repository",
+      maintainers = [
+        "sys9kdr",
+      ]
+    }
+
+    asdf-pandoc-crossref = {
+      description = "The people with push access to the asdf-pandoc-crossref repository",
+      maintainers = [
+        "sys9kdr",
+      ]
+    }
+
     asdf-pdm = {
       description = "The people with push access to the asdf-pdm repository"
       maintainers = [
@@ -443,6 +464,14 @@ locals {
       ]
     }
 
+    asdf-stratus-red-team = {
+      description = "The people with push access to the asdf-stratus-red-team repository"
+      maintainers = [
+        "christophetd",
+        "vthiery",
+      ]
+    }
+
     asdf-svu = {
       description = "The people with push access to the asdf-svu repository"
       maintainers = [
@@ -455,6 +484,13 @@ locals {
       description = "The people with push access to the asdf-swift repository"
       maintainers = [
         "hqnna",
+      ]
+    }
+
+    asdf-swifthooks = {
+      description = "The people with push access to the asdf-swifthooks repository"
+      maintainers = [
+        "lordcodes",
       ]
     }
 
