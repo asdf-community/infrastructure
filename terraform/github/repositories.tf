@@ -114,6 +114,20 @@ locals {
       ]
     }
 
+    asdf-cloak-swift = {
+      description    = "Cloak Swift for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-cloak-swift",
+        "asdf-core",
+      ]
+    }
+
     asdf-clojure = {
       description    = "Clojure plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
