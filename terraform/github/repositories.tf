@@ -1080,6 +1080,20 @@ locals {
       ]
     }
 
+    asdf-swifthooks = {
+      description    = "SwiftHooks for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "master"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-swifthooks",
+        "asdf-core",
+      ]
+    }
+
     asdf-temporal = {
       description    = "Temporal CLI plugin for the asdf version manager"
       homepage_url   = "https://github.com/temporalio/cli"
