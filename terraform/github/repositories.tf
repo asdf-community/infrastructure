@@ -1066,6 +1066,20 @@ locals {
       ]
     }
 
+    asdf-stratus-red-team = {
+      description    = "stratus-red-team plugin for asdf version manager"
+      homepage_url   = "https://github.com/asdf-vm/asdf"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-stratus-red-team",
+        "asdf-core",
+      ]
+    }
+
     asdf-svu = {
       description    = "SVU plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
