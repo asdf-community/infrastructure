@@ -117,7 +117,7 @@ locals {
     asdf-cloak-swift = {
       description    = "Cloak Swift for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
-      default_branch = "master"
+      default_branch = "main"
       topics = [
         "asdf-plugin",
         "asdf",
