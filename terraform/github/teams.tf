@@ -509,6 +509,13 @@ locals {
       ]
     }
 
+    asdf-tomcat = {
+      description = "The people with push access to the asdf-tomcat repository"
+      maintainers = [
+        "mbutov",
+      ]
+    }
+
     asdf-tridentctl = {
       description = "The people with push access to the asdf-tridentctl repository"
       maintainers = [
