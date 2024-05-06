@@ -1138,6 +1138,20 @@ locals {
       ]
     }
 
+    asdf-tomcat = {
+      description    = "Apache Tomcat for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-community/asdf-tomcat"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-tomcat",
+        "asdf-core",
+      ]
+    }
+
     asdf-tridentctl = {
       description    = "tridentctl plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
