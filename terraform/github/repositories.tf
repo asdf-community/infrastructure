@@ -540,6 +540,20 @@ locals {
       ]
     }
 
+    asdf-jetbrains = {
+      description    = "JetBrains products for the asdf version manager"
+      homepage_url   = "https://github.com/asdf-community/asdf-jetbrains"
+      default_branch = "main"
+      topics = [
+        "asdf-plugin",
+        "asdf",
+      ]
+      teams = [
+        "asdf-jetbrains",
+        "asdf-core",
+      ]
+    }
+
     asdf-kotlin = {
       description    = "Kotlin plugin for the asdf version manager"
       homepage_url   = "https://github.com/asdf-vm/asdf"
