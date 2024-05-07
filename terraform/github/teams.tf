@@ -246,6 +246,13 @@ locals {
       ]
     }
 
+    asdf-jetbrains = {
+      description = "The people with push access to the asdf-jetbrains repository"
+      maintainers = [
+        "mbutov",
+      ]
+    }
+
     asdf-kconf = {
       description = "The people with push access to the asdf-kconf repository"
       maintainers = [
