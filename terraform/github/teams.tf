@@ -341,7 +341,7 @@ locals {
     asdf-pandoc = {
       description = "The people with push access to the asdf-pandoc repository",
       maintainers = [
-        "sys9kdr",
+        "StephanMeijer",
       ]
     }
 
