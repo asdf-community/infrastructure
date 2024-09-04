@@ -559,6 +559,27 @@ locals {
         "b1-luettje"
       ]
     }
+
+    asdf-launchpad = {
+      description = "The people with push access to the asdf-launchpad repository"
+      maintainers = [
+        "surskitt"
+      ]
+    }
+
+    asdf-kubectl-cnpg = {
+      description = "The people with push access to the asdf-kubectl-cnpg repository"
+      maintainers = [
+        "surskitt"
+      ]
+    }
+
+    asdf-kubectl-df-pv = {
+      description = "The people with push access to the asdf-kubectl-df-pv repository"
+      maintainers = [
+        "surskitt"
+      ]
+    }
   }
 }
 
