@@ -436,6 +436,13 @@ locals {
       ]
     }
 
+    asdf-regclient = {
+      description = "The people with push access to the asdf-regclient repository"
+      maintainers = [
+        "marc-sensenich",
+      ]
+    }
+
     asdf-scala = {
       description = "The people with push access to the asdf-scala repository"
       maintainers = [
