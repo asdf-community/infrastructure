@@ -54,6 +54,13 @@ locals {
       ]
     }
 
+    asdf-avalanche = {
+      description = "The people with push access to the asdf-avalanche repository"
+      maintainers = [
+        "embtools",
+      ]
+    }
+
     asdf-ccache = {
       description = "The people with push access to the asdf-ccache repository"
       maintainers = [
