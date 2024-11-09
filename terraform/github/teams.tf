@@ -464,6 +464,15 @@ locals {
       ]
     }
 
+    asdf-starknet-devnet = {
+      description = "The people with push access to the asdf-starknet-devnet repository"
+      maintainers = [
+        "ptisserand",
+        "FabijanC",
+        "marioiordanov",
+      ]
+    }
+
     asdf-stratus-red-team = {
       description = "The people with push access to the asdf-stratus-red-team repository"
       maintainers = [
