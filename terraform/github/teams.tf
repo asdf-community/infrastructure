@@ -559,6 +559,13 @@ locals {
         "b1-luettje"
       ]
     }
+
+    asdf-micronaut = {
+      description = "The people with push access to the asdf-micronaut repository"
+      maintainers = [
+        "xafarr"
+      ]
+    }
   }
 }
 
