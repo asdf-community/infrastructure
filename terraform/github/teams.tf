@@ -310,6 +310,13 @@ locals {
       ]
     }
 
+    asdf-magic = {
+      description = "The people with push access to the asdf-magic repository"
+      maintainers = [
+        "ulmentflam",
+      ]
+    }
+
     asdf-mimirtool = {
       description = "The people with push access to the asdf-mimirtool repository"
       maintainers = [
