@@ -4,7 +4,6 @@ locals {
       description = "Core team"
       maintainers = [
         "smorimoto",
-        "vic",
       ]
     }
 
@@ -12,7 +11,6 @@ locals {
       description = "Infrastructure team"
       maintainers = [
         "smorimoto",
-        "vic",
       ]
       members = [
         "nzws",

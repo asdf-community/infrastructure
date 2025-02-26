@@ -2,7 +2,6 @@ locals {
   github_memberships = {
     admins = [
       "smorimoto",
-      "vic",
     ]
 
     members = [
