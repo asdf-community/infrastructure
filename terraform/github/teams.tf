@@ -94,6 +94,13 @@ locals {
       ]
     }
 
+    asdf-cocogitto = {
+      description = "The people with push access to the asdf-cocogitto repository"
+      maintainers = [
+        "han-tyumi",
+      ]
+    }
+
     asdf-crystal = {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [
