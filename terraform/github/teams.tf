@@ -557,6 +557,13 @@ locals {
         "b1-luettje"
       ]
     }
+
+    asdf-argc = {
+      description = "The people with push access to the asdf-argc repository"
+      maintainers = [
+        "rgeraskin"
+      ]
+    }
   }
 }
 
