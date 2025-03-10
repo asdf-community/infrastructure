@@ -557,6 +557,13 @@ locals {
         "b1-luettje"
       ]
     }
+
+    asdf-tinytex = {
+      description = "The people with push access to the asdf-tinytex repository"
+      maintainers = [
+        "Fbrisset",
+      ]
+    }
   }
 }
 
