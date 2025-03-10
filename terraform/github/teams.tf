@@ -434,6 +434,13 @@ locals {
       ]
     }
 
+    asdf-restish = {
+      description = "The people with push access to the asdf-restish repository"
+      maintainers = [
+        "polds",
+      ]
+    }
+
     asdf-scala = {
       description = "The people with push access to the asdf-scala repository"
       maintainers = [
