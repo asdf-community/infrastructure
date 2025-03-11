@@ -448,6 +448,13 @@ locals {
       ]
     }
 
+    asdf-sesh = {
+      description = "The people with push access to the asdf-sesh repository"
+      maintainers = [
+        "marcellmartini",
+      ]
+    }
+
     asdf-bitwarden-secrets-manager = {
       description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
       maintainers = [
