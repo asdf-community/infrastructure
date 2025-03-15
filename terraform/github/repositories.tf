@@ -362,8 +362,8 @@ locals {
           "asdf",
         ]
         teams = [
-          "asdf-core",
           "asdf-flutter",
+          "asdf-core",
         ]
       }
 
