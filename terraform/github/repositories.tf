@@ -1274,7 +1274,9 @@ locals {
       } : repo_name => merge(repo, {
         description = format("%s [maintainer=%s]",
           repo.description,
-          join(", ", [for maintainer in local.github_teams[repo.teams[0]].maintainers : format("@%s", maintainer)])
+          length(local.github_teams[repo.teams[0]].maintainers) > 0 ?
+          join(", ", [for maintainer in local.github_teams[repo.teams[0]].maintainers : format("@%s", maintainer)]) :
+          "LOOKING FOR A MAINTAINER! SUBMIT A PULL REQUEST TO THE INFRASTRUCTURE REPOSITORY!"
         )
     })
   }
