@@ -43,6 +43,13 @@ locals {
       ]
     }
 
+    asdf-bitwarden-secrets-manager = {
+      description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
+      maintainers = [
+        "FIAV1",
+      ]
+    }
+
     asdf-ccache = {
       description = "The people with push access to the asdf-ccache repository"
       maintainers = []
@@ -162,6 +169,11 @@ locals {
       ]
     }
 
+    asdf-esy = {
+      description = "The people with push access to the asdf-esy repository"
+      maintainers = []
+    }
+
     asdf-etcd = {
       description = "The people with push access to the asdf-etcd repository"
       maintainers = [
@@ -179,6 +191,11 @@ locals {
       ]
     }
 
+    asdf-fstar = {
+      description = "The people with push access to the asdf-fstar repository"
+      maintainers = []
+    }
+
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
       maintainers = [
@@ -186,11 +203,28 @@ locals {
       ]
     }
 
+    asdf-gitlab-lab = {
+      description = "The people with push access to the asdf-lab repository"
+      maintainers = [
+        "particledecay",
+      ]
+    }
+
+    asdf-gleam = {
+      description = "The people with push access to the asdf-gleam repository"
+      maintainers = []
+    }
+
     asdf-golang = {
       description = "The people with push access to the asdf-golang repository"
       maintainers = [
         "kennyp",
       ]
+    }
+
+    asdf-graalvm = {
+      description = "The people with push access to the asdf-graalvm repository"
+      maintainers = []
     }
 
     asdf-grpcurl = {
@@ -209,6 +243,16 @@ locals {
       ]
     }
 
+    asdf-haskell = {
+      description = "The people with push access to the asdf-haskell repository"
+      maintainers = []
+    }
+
+    asdf-haxe = {
+      description = "The people with push access to the asdf-haxe repository"
+      maintainers = []
+    }
+
     asdf-helmsman = {
       description = "The people with push access to the asdf-helmsman repository"
       maintainers = [
@@ -221,6 +265,16 @@ locals {
       maintainers = [
         "czchen",
       ]
+    }
+
+    asdf-idris = {
+      description = "The people with push access to the asdf-idris repository"
+      maintainers = []
+    }
+
+    asdf-idris2 = {
+      description = "The people with push access to the asdf-idris2 repository"
+      maintainers = []
     }
 
     asdf-intlc = {
@@ -287,11 +341,29 @@ locals {
       ]
     }
 
-    asdf-gitlab-lab = {
-      description = "The people with push access to the asdf-lab repository"
-      maintainers = [
-        "particledecay",
-      ]
+    asdf-lean = {
+      description = "The people with push access to the asdf-lean repository"
+      maintainers = []
+    }
+
+    asdf-lfe = {
+      description = "The people with push access to the asdf-lfe repository"
+      maintainers = []
+    }
+
+    asdf-link = {
+      description = "The people with push access to the asdf-link repository"
+      maintainers = []
+    }
+
+    asdf-meson = {
+      description = "The people with push access to the asdf-meson repository"
+      maintainers = []
+    }
+
+    asdf-mill = {
+      description = "The people with push access to the asdf-mill repository"
+      maintainers = []
     }
 
     asdf-mimirtool = {
@@ -301,11 +373,21 @@ locals {
       ]
     }
 
+    asdf-mlton = {
+      description = "The people with push access to the asdf-mlton repository"
+      maintainers = []
+    }
+
     asdf-moonrepo = {
       description = "The people with push access to the asdf-moonrepo repository"
       maintainers = [
         "ethanjdiamond",
       ]
+    }
+
+    asdf-neko = {
+      description = "The people with push access to the asdf-neko repository"
+      maintainers = []
     }
 
     asdf-nim = {
@@ -315,6 +397,16 @@ locals {
       ]
     }
 
+    asdf-ninja = {
+      description = "The people with push access to the asdf-ninja repository"
+      maintainers = []
+    }
+
+    asdf-ocaml = {
+      description = "The people with push access to the asdf-ocaml repository"
+      maintainers = []
+    }
+
     asdf-odo = {
       description = "The people with push access to the asdf-odo repository"
       maintainers = [
@@ -322,15 +414,20 @@ locals {
       ]
     }
 
+    asdf-opam = {
+      description = "The people with push access to the asdf-opam repository"
+      maintainers = []
+    }
+
     asdf-pandoc = {
-      description = "The people with push access to the asdf-pandoc repository",
+      description = "The people with push access to the asdf-pandoc repository"
       maintainers = [
         "sys9kdr",
       ]
     }
 
     asdf-pandoc-crossref = {
-      description = "The people with push access to the asdf-pandoc-crossref repository",
+      description = "The people with push access to the asdf-pandoc-crossref repository"
       maintainers = [
         "sys9kdr",
       ]
@@ -348,15 +445,13 @@ locals {
       maintainers = []
     }
 
-    asdf-poetry = {
-      description = "The people with push access to the asdf-poetry repository"
-      maintainers = [
-        "crflynn",
-      ]
-    }
-
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
+      maintainers = []
+    }
+
+    asdf-please = {
+      description = "The people with push access to the asdf-please repository"
       maintainers = []
     }
 
@@ -367,10 +462,10 @@ locals {
       ]
     }
 
-    asdf-promtool = {
-      description = "The people with push access to the asdf-promtool repository"
+    asdf-poetry = {
+      description = "The people with push access to the asdf-poetry repository"
       maintainers = [
-        "czchen",
+        "crflynn",
       ]
     }
 
@@ -378,6 +473,13 @@ locals {
       description = "The people with push access to the asdf-pomerium-cli repository"
       maintainers = [
         "haggishunk",
+      ]
+    }
+
+    asdf-promtool = {
+      description = "The people with push access to the asdf-promtool repository"
+      maintainers = [
+        "czchen",
       ]
     }
 
@@ -416,6 +518,16 @@ locals {
       ]
     }
 
+    asdf-rlwrap = {
+      description = "The people with push access to the asdf-rlwrap repository"
+      maintainers = []
+    }
+
+    asdf-rust = {
+      description = "The people with push access to the asdf-rust repository"
+      maintainers = []
+    }
+
     asdf-scala = {
       description = "The people with push access to the asdf-scala repository"
       maintainers = [
@@ -427,13 +539,6 @@ locals {
       description = "The people with push access to the asdf-scala-cli repository"
       maintainers = [
         "rlemaitre",
-      ]
-    }
-
-    asdf-bitwarden-secrets-manager = {
-      description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
-      maintainers = [
-        "FIAV1",
       ]
     }
 
@@ -481,18 +586,18 @@ locals {
       ]
     }
 
-    asdf-terragrunt = {
-      description = "The people with push access to the asdf-terragrunt repository"
-      maintainers = [
-        "ohmer",
-      ]
-    }
-
     asdf-temporal = {
       description = "The people with push access to the asdf-temporal repository"
       maintainers = [
         "joshkaplinsky",
         "hariscodes",
+      ]
+    }
+
+    asdf-terragrunt = {
+      description = "The people with push access to the asdf-terragrunt repository"
+      maintainers = [
+        "ohmer",
       ]
     }
 
@@ -508,11 +613,6 @@ locals {
       maintainers = [
         "superbrothers",
       ]
-    }
-
-    asdf-zig = {
-      description = "The people with push access to the asdf-zig repository"
-      maintainers = []
     }
 
     asdf-tuist = {
@@ -531,11 +631,21 @@ locals {
       ]
     }
 
+    asdf-ubuntu = {
+      description = "The people with push access to the asdf-ubuntu repository"
+      maintainers = []
+    }
+
     asdf-uv = {
       description = "The people with push access to the asdf-uv repository"
       maintainers = [
         "b1-luettje"
       ]
+    }
+
+    asdf-zig = {
+      description = "The people with push access to the asdf-zig repository"
+      maintainers = []
     }
   }
 }

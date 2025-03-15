@@ -87,6 +87,20 @@ locals {
         ]
       }
 
+      asdf-bitwarden-secrets-manager = {
+        description    = "asdf-bitwarden-secrets-manager for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "main"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-bitwarden-secrets-manager",
+          "asdf-core",
+        ]
+      }
+
       asdf-ccache = {
         description    = "ccache plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
@@ -334,6 +348,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-esy",
           "asdf-core",
         ]
       }
@@ -361,6 +376,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-fstar",
           "asdf-core",
         ]
       }
@@ -388,6 +404,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-gleam",
           "asdf-core",
         ]
       }
@@ -415,6 +432,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-graalvm",
           "asdf-core",
         ]
       }
@@ -456,6 +474,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-haskell",
           "asdf-core",
         ]
       }
@@ -469,6 +488,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-haxe",
           "asdf-core",
         ]
       }
@@ -510,6 +530,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-idris",
           "asdf-core",
         ]
       }
@@ -523,6 +544,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-idris2",
           "asdf-core",
         ]
       }
@@ -648,6 +670,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-lean",
           "asdf-core",
         ]
       }
@@ -661,6 +684,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-lfe",
           "asdf-core",
         ]
       }
@@ -674,6 +698,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-link",
           "asdf-core",
         ]
       }
@@ -687,6 +712,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-meson",
           "asdf-core",
         ]
       }
@@ -700,6 +726,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-mill",
           "asdf-core",
         ]
       }
@@ -727,6 +754,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-mlton",
           "asdf-core",
         ]
       }
@@ -754,6 +782,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-neko",
           "asdf-core",
         ]
       }
@@ -781,6 +810,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-ninja",
           "asdf-core",
         ]
       }
@@ -794,6 +824,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-ocaml",
           "asdf-core",
         ]
       }
@@ -827,6 +858,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-opam",
           "asdf-core",
         ]
       }
@@ -882,6 +914,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-please",
           "asdf-core",
         ]
       }
@@ -1022,6 +1055,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-rlwrap",
           "asdf-core",
         ]
       }
@@ -1035,6 +1069,7 @@ locals {
           "asdf",
         ]
         teams = [
+          "asdf-rust",
           "asdf-core",
         ]
       }
@@ -1063,20 +1098,6 @@ locals {
         ]
         teams = [
           "asdf-scala-cli",
-          "asdf-core",
-        ]
-      }
-
-      asdf-bitwarden-secrets-manager = {
-        description    = "asdf-bitwarden-secrets-manager for the asdf version manager"
-        homepage_url   = "https://github.com/asdf-vm/asdf"
-        default_branch = "main"
-        topics = [
-          "asdf-plugin",
-          "asdf",
-        ]
-        teams = [
-          "asdf-bitwarden-secrets-manager",
           "asdf-core",
         ]
       }
@@ -1181,33 +1202,6 @@ locals {
         ]
       }
 
-      asdf-ubuntu = {
-        description    = "Ubuntu docker images for asdf tools"
-        homepage_url   = "https://github.com/asdf-vm/asdf"
-        default_branch = "master"
-        topics = [
-          "asdf-plugin",
-          "asdf",
-        ]
-        teams = [
-          "asdf-core",
-        ]
-      }
-
-      asdf-zig = {
-        description    = "Zig plugin for the asdf version manager"
-        homepage_url   = "https://github.com/asdf-vm/asdf"
-        default_branch = "master"
-        topics = [
-          "asdf-plugin",
-          "asdf",
-        ]
-        teams = [
-          "asdf-zig",
-          "asdf-core",
-        ]
-      }
-
       asdf-tuist = {
         description    = "Tuist CLI plugin for the asdf version manager"
         homepage_url   = "https://github.com/tuist/tuist"
@@ -1236,6 +1230,20 @@ locals {
         ]
       }
 
+      asdf-ubuntu = {
+        description    = "Ubuntu docker images for asdf tools"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "master"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-ubuntu",
+          "asdf-core",
+        ]
+      }
+
       asdf-uv = {
         description    = "uv plugin for the asdf version manager"
         homepage_url   = "https://github.com/astral-sh/uv"
@@ -1246,7 +1254,21 @@ locals {
         ]
         teams = [
           "asdf-uv",
-          "asdf-core"
+          "asdf-core",
+        ]
+      }
+
+      asdf-zig = {
+        description    = "Zig plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "master"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-zig",
+          "asdf-core",
         ]
       }
       } : repo_name => merge(repo, {
