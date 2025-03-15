@@ -12,9 +12,6 @@ locals {
       maintainers = [
         "smorimoto",
       ]
-      members = [
-        "nzws",
-      ]
     }
 
     asdf-alp = {
@@ -575,11 +572,6 @@ resource "github_team_membership" "team_membership" {
         team_name = team_name,
         username  = username,
         role      = "maintainer",
-      }],
-      [for username in lookup(team, "members", []) : {
-        team_name = team_name,
-        username  = username,
-        role      = "member",
       }],
     ]]) : format("%s.%s", i.team_name, i.username) => i
   }
