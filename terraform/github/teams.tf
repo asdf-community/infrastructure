@@ -16,9 +16,7 @@ locals {
 
     asdf-alp = {
       description = "The people with push access to the asdf-alp repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-alpine = {
@@ -30,16 +28,12 @@ locals {
 
     asdf-aocc = {
       description = "The people with push access to the asdf-aocc repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-aria2 = {
       description = "The people with push access to the asdf-aria2 repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-arkade = {
@@ -51,9 +45,7 @@ locals {
 
     asdf-ccache = {
       description = "The people with push access to the asdf-ccache repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-chezscheme = {
@@ -123,9 +115,7 @@ locals {
 
     asdf-deno = {
       description = "The people with push access to the asdf-deno repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-direnv = {
@@ -133,7 +123,6 @@ locals {
       maintainers = [
         "jfly",
         "michi-zuri",
-        "smorimoto",
         "vic",
       ]
     }
@@ -356,9 +345,7 @@ locals {
 
     asdf-peco = {
       description = "The people with push access to the asdf-peco repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-poetry = {
@@ -370,9 +357,7 @@ locals {
 
     asdf-php = {
       description = "The people with push access to the asdf-php repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-plugin-manager = {
@@ -527,9 +512,7 @@ locals {
 
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
-      maintainers = [
-        "smorimoto",
-      ]
+      maintainers = []
     }
 
     asdf-tuist = {
