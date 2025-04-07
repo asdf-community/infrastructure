@@ -450,6 +450,13 @@ locals {
       maintainers = []
     }
 
+    asdf-pkl = {
+      description = "The people with push access to the asdf-pkl repository"
+      maintainers = [
+        "tomduckering",
+      ]
+    }
+
     asdf-please = {
       description = "The people with push access to the asdf-please repository"
       maintainers = []
