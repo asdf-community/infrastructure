@@ -643,6 +643,13 @@ locals {
       ]
     }
 
+    asdf-dotnet = {
+      description = "The people with push access to the asdf-dotnet repository"
+      maintainers = [
+        "hensou"
+      ]
+    }
+
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
       maintainers = []
