@@ -649,6 +649,13 @@ locals {
         "jiacai2050"
       ]
     }
+
+    asdf-zls = {
+      description = "The people with push access to the asdf-zls repository"
+      maintainers = [
+        "jiacai2050"
+      ]
+    }
   }
 }
 
