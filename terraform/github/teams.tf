@@ -645,7 +645,9 @@ locals {
 
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
-      maintainers = []
+      maintainers = [
+        "jiacai2050"
+      ]
     }
   }
 }
