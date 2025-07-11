@@ -43,6 +43,17 @@ locals {
       ]
     }
 
+    asdf-ast-grep = {
+      description = "The people with push access to the asdf-ast-grep repository"
+      maintainers = [
+        "michael-delphos",
+        "michaelquinn32",
+        "CalebFenton",
+        "itai-delphos",
+        "liba2k",
+      ]
+    }
+
     asdf-bitwarden-secrets-manager = {
       description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
       maintainers = [
