@@ -703,6 +703,20 @@ locals {
         ]
       }
 
+      asdf-lintnet = {
+        description    = "lintnet plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "main"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-lintnet",
+          "asdf-core",
+        ]
+      }
+
       asdf-meson = {
         description    = "Meson plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
