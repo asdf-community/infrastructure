@@ -148,6 +148,13 @@ locals {
       ]
     }
 
+    asdf-drawio-desktop = {
+      description = "The people with push access to the asdf-drawio-desktop repository"
+      maintainers = [
+        "ja-jp-utf8",
+      ]
+    }
+
     asdf-duckdb = {
       description = "The people with push access to the asdf-duckdb repository"
       maintainers = [
