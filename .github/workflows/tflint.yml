@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
       - name: Set-up TFLint
-        uses: terraform-linters/setup-tflint@115085cc23c5f5eeebad58ba418ec14e88c7a431 # v6.0.0
+        uses: terraform-linters/setup-tflint@a8a2cbdfb17397afadcc4fb3fcd64fdb215f0f9f # v6.1.0
 
       - name: Run TFLint
         run: tflint --recursive --format=compact
