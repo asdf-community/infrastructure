@@ -311,20 +311,6 @@ locals {
         ]
       }
 
-      asdf-elasticsearch = {
-        description    = "Elasticsearch plugin for the asdf version manager"
-        homepage_url   = "https://github.com/asdf-vm/asdf"
-        default_branch = "master"
-        topics = [
-          "asdf-plugin",
-          "asdf",
-        ]
-        teams = [
-          "asdf-elasticsearch",
-          "asdf-core",
-        ]
-      }
-
       asdf-elm = {
         description    = "Elm plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"

@@ -155,13 +155,6 @@ locals {
       ]
     }
 
-    asdf-elasticsearch = {
-      description = "The people with push access to the asdf-elasticsearch repository"
-      maintainers = [
-        "michaelstephens",
-      ]
-    }
-
     asdf-elm = {
       description = "The people with push access to the asdf-elm repository"
       maintainers = [
@@ -569,9 +562,7 @@ locals {
 
     asdf-swift = {
       description = "The people with push access to the asdf-swift repository"
-      maintainers = [
-        "hqnna",
-      ]
+      maintainers = []
     }
 
     asdf-swifthooks = {
