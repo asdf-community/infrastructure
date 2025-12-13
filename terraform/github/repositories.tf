@@ -849,6 +849,20 @@ locals {
         ]
       }
 
+      asdf-pandoc = {
+        description    = "Pandoc plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "main"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-pandoc",
+          "asdf-core",
+        ]
+      }
+
       asdf-pdm = {
         description    = "PDM plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
