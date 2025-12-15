@@ -349,6 +349,13 @@ locals {
       maintainers = []
     }
 
+    asdf-manpager = {
+      description = "The people with push access to the asdf-manpager repository"
+      maintainers = [
+        "MustCodeAl",
+      ]
+    }
+
     asdf-meson = {
       description = "The people with push access to the asdf-meson repository"
       maintainers = []
