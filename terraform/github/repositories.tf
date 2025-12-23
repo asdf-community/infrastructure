@@ -703,7 +703,6 @@ locals {
         ]
       }
 
-
       asdf-meson = {
         description    = "Meson plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
