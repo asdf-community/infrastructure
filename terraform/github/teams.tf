@@ -105,6 +105,13 @@ locals {
       ]
     }
 
+    asdf-curlie = {
+      description = "The people with push access to the asdf-curlie repository"
+      maintainers = [
+        "remmercier",
+      ]
+    }
+
     asdf-dapr-cli = {
       description = "The people with push access to the asdf-dapr-cli repository"
       maintainers = [
