@@ -520,7 +520,9 @@ locals {
 
     asdf-rust = {
       description = "The people with push access to the asdf-rust repository"
-      maintainers = []
+      maintainers = [
+        "alganet",
+      ]
     }
 
     asdf-scala = {
