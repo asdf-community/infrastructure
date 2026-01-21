@@ -395,6 +395,13 @@ locals {
       maintainers = []
     }
 
+    asdf-oama = {
+      description = "The people with push access to the asdf-oama repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-ocaml = {
       description = "The people with push access to the asdf-ocaml repository"
       maintainers = []
