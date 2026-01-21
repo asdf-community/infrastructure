@@ -636,6 +636,13 @@ locals {
       ]
     }
 
+    asdf-valkey = {
+      description = "The people with push access to the asdf-valkey repository"
+      maintainers = [
+        "samof76"
+      ]
+    }
+
     asdf-zig = {
       description = "The people with push access to the asdf-zig repository"
       maintainers = [
