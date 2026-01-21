@@ -162,6 +162,13 @@ locals {
       ]
     }
 
+    asdf-envs = {
+      description = "The people with push access to the asdf-envs repository"
+      maintainers = [
+        "longdog",
+      ]
+    }
+
     asdf-esy = {
       description = "The people with push access to the asdf-esy repository"
       maintainers = []
