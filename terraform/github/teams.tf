@@ -349,6 +349,13 @@ locals {
       maintainers = []
     }
 
+    asdf-lintnet = {
+      description = "The people with push access to the asdf-lintnet repository"
+      maintainers = [
+        "czchen",
+      ]
+    }
+
     asdf-meson = {
       description = "The people with push access to the asdf-meson repository"
       maintainers = []
