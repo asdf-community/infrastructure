@@ -90,6 +90,13 @@ locals {
       ]
     }
 
+    asdf-codon = {
+      description = "The people with push access to the asdf-codon repository"
+      maintainers = [
+        "3w36zj6",
+      ]
+    }
+
     asdf-crystal = {
       description = "The people with push access to the asdf-crystal repository"
       maintainers = [
