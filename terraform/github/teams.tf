@@ -492,6 +492,13 @@ locals {
       ]
     }
 
+    asdf-quarto = {
+      description = "The people with push access to the asdf-quarto repository"
+      maintainers = [
+        "mlysy",
+      ]
+    }
+
     asdf-r = {
       description = "The people with push access to the asdf-r repository"
       maintainers = [
