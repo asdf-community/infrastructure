@@ -689,6 +689,20 @@ locals {
         ]
       }
 
+      asdf-manpager = {
+        description    = "Manpager plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "master"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+        ]
+        teams = [
+          "asdf-manpager",
+          "asdf-core",
+        ]
+      }
+
       asdf-meson = {
         description    = "Meson plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
