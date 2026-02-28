@@ -412,6 +412,13 @@ locals {
       maintainers = []
     }
 
+    asdf-otelcol = {
+      description = "The people with push access to the asdf-opam repository"
+      maintainers = [
+        "ChristianCiach"
+      ]
+    }
+
     asdf-pandoc = {
       description = "The people with push access to the asdf-pandoc repository"
       maintainers = [
