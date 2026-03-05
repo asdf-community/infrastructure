@@ -185,6 +185,22 @@ locals {
         ]
       }
 
+      asdf-codon = {
+        description    = "Codon plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "main"
+        topics = [
+          "asdf-plugin",
+          "asdf",
+          "codon",
+          "python",
+        ]
+        teams = [
+          "asdf-codon",
+          "asdf-core",
+        ]
+      }
+
       asdf-crystal = {
         description    = "Crystal plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
