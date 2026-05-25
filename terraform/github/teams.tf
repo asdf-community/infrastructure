@@ -139,6 +139,13 @@ locals {
       maintainers = []
     }
 
+    asdf-dependabot-cli = {
+      description = "The people with push access to the asdf-dependabot-cli repository"
+      maintainers = [
+        "Habluu",
+      ]
+    }
+
     asdf-direnv = {
       description = "The people with push access to the asdf-direnv repository"
       maintainers = [
