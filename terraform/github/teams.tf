@@ -7,6 +7,13 @@ locals {
       ]
     }
 
+    asdf-skopeo = {
+      description = "The people with push access to the asdf-skopeo repository"
+      maintainers = [
+        "zdzielinski",
+      ]
+    }
+
     asdf-infrastructure = {
       description = "Infrastructure team"
       maintainers = [
