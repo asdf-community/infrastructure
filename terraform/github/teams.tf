@@ -43,6 +43,13 @@ locals {
       ]
     }
 
+    asdf-berglas = {
+      description = "The people with push access to the asdf-berglas repository"
+      maintainers = [
+        "ivank",
+      ]
+    }
+
     asdf-bitwarden-secrets-manager = {
       description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
       maintainers = [
