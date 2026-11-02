@@ -388,12 +388,12 @@ locals {
         homepage_url   = "https://github.com/asdf-vm/asdf"
         default_branch = "master"
         topics = [
-          "asdf-plugin"
-          "asdf"
+          "asdf-plugin",
+          "asdf",
         ]
         teams = [
-          "asdf-gdu"
-          "asdf-core"
+          "asdf-gdu",
+          "asdf-core",
         ]
       }
 
