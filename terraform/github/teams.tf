@@ -203,6 +203,13 @@ locals {
       maintainers = []
     }
 
+    asdf-gdu = {
+      description = "The people with push access to the asdf-gdu repository"
+      maintainers = [
+        "txgruppi"
+      ]
+    }
+
     asdf-getenvoy = {
       description = "The people with push access to the asdf-getenvoy repository"
       maintainers = [
@@ -668,13 +675,6 @@ locals {
       description = "The people with push access to the asdf-zig repository"
       maintainers = [
         "jiacai2050"
-      ]
-    }
-
-    asdf-gdu = {
-      description = "The people with push access to the asdf-gdu repository"
-      maintainers = [
-        "txgruppi"
       ]
     }
   }
