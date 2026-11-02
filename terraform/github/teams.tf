@@ -670,6 +670,13 @@ locals {
         "jiacai2050"
       ]
     }
+
+    asdf-gdu = {
+      description = "The people with push access to the asdf-gdu repository"
+      maintainers = [
+        "txgruppi"
+      ]
+    }
   }
 }
 
