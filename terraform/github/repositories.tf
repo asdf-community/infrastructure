@@ -383,6 +383,20 @@ locals {
         ]
       }
 
+      asdf-gdu = {
+        description    = "GDU plugin for the asdf version manager"
+        homepage_url   = "https://github.com/asdf-vm/asdf"
+        default_branch = "master"
+        topics = [
+          "asdf-plugin"
+          "asdf"
+        ]
+        teams = [
+          "asdf-gdu"
+          "asdf-core"
+        ]
+      }
+
       asdf-getenvoy = {
         description    = "GetEnvoy plugin for the asdf version manager"
         homepage_url   = "https://github.com/asdf-vm/asdf"
