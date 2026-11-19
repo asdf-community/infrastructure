@@ -43,6 +43,13 @@ locals {
       ]
     }
 
+    asdf-aws-vault = {
+      description = "The people with push access to the asdf-aws-vault repository"
+      maintainers = [
+        "elijahr",
+      ]
+    }
+
     asdf-bitwarden-secrets-manager = {
       description = "The people with push access to the asdf-bitwarden-secrets-manager repository"
       maintainers = [
